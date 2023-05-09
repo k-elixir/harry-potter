@@ -1,11 +1,12 @@
 import React from "react";
+import logo from "./images/logo.png";
 
 export default function NavBar() {
   return (
-    <nav className="navbar navbar-expand-lg bg-dark navbar-dark">
+    <nav className="navbar navbar-expand-lg navbar-dark">
       <div className="container">
-        <a className="navbar-brand" href="/">
-          <img src="./images/logo.png" alt="Logo" />
+        <a className="navbar-brand m-0 p-0" href="/">
+          <img src={logo} alt="Logo" width={60} />
         </a>
         <button
           className="navbar-toggler"
@@ -29,8 +30,8 @@ export default function NavBar() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/">
-                Features
+              <a className="nav-link" href="./Introduction.js">
+                Introduction
               </a>
             </li>
             <li className="nav-item">

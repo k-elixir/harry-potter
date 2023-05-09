@@ -1,11 +1,12 @@
 import "./App.css";
-import NavBar from "./NavBar";
+import NavBar from "./components/NavBar";
+import FirstPart from "./components/homePage/FirstPart";
 
 export default function App() {
   return (
-    <div>
+    <div className="body">
       <NavBar />
-      <h1>welcom to my harry poter project</h1>
+      <FirstPart />
     </div>
   );
 }

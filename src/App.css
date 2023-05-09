@@ -1,3 +1,22 @@
-nav img {
-  width: 10px;
+.body {
+  background-color: black;
+  color: white;
+}
+.homePage-FirstPart {
+  color: white;
+  background: top -200px center no-repeat url("./components/images/firstPart.jpg");
+  background-size: 1550px 860px;
+}
+.homePage-FirstPart .title {
+  font-size: 100px;
+}
+.homePage hr {
+  border-top: 3px solid;
+  opacity: 0.75;
+}
+.introduction-page hr,
+.introduction-page p {
+  margin-right: 400px;
+  margin-left: 400px;
+  margin-bottom: 20px;
 }
