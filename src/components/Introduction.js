@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Introduction() {
   return (
@@ -11,7 +12,9 @@ export default function Introduction() {
         series. If I forgot somethint I really glad if you tell me by click on
         the button below. I hope you enjoy it.
       </p>
-      <button className="btn btn-warning">Contact us</button>
+      <Link className="btn btn-warning" to="/Contact">
+        Contact us
+      </Link>
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function FirstPart() {
+export default function HomePage() {
   return (
     <div className="homePage text-center">
       <div className="homePage-FirstPart p-5">
