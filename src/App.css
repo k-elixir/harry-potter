@@ -20,3 +20,17 @@
   margin-left: 400px;
   margin-bottom: 20px;
 }
+.btn-contact-page {
+  background: linear-gradient(320deg, blue 5%, red 65%);
+  color: white;
+  width: 200px;
+  border: 0px;
+  font-size: 25px;
+}
+.btn-contact-page:hover {
+  background: linear-gradient(320deg, red 5%, blue 65%);
+  color: white;
+}
+span {
+  color: red;
+}
