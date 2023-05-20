@@ -21,7 +21,7 @@ export default function NavBar() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div
-          className="collapse navbar-collapse  justify-content-end"
+          className="collapse navbar-collapse justify-content-end"
           id="navbarNavDropdown"
         >
           <ul className="navbar-nav">
