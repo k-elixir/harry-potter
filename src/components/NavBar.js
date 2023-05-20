@@ -40,35 +40,60 @@ export default function NavBar() {
                 Contact
               </Link>
             </li>
-            <li className="nav-item btn-group">
-              <button class="btn active" type="button">
-                Large split button
-              </button>
-              <button
-                type="button"
-                class="btn active dropdown-toggle dropdown-toggle-split"
-                data-toggle="dropdown"
-                aria-haspopup="true"
+            <li className="nav-item">
+              <Link className="nav-link" aria-current="page" to="/Gallery">
+                Gallery
+              </Link>
+            </li>
+            <li className="nav-item dropdown">
+              <a
+                className="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
                 aria-expanded="false"
-              ></button>
-              <div class="dropdown-menu">
-                <ul>
-                  <li>
-                    <div class="btn-group dropleft">
-                      <button
-                        type="button"
-                        class="btn btn-secondary dropdown-toggle"
-                        data-toggle="dropdown"
-                        aria-haspopup="true"
-                        aria-expanded="false"
-                      >
-                        Dropleft
-                      </button>
-                      <div class="dropdown-menu"></div>
-                    </div>
-                  </li>
-                </ul>
-              </div>
+              >
+                Train
+              </a>
+              <ul className="dropdown-menu dropdown-menu-dark">
+                <li>
+                  <Link className="dropdown-item" to="/Hogwarts">
+                    Hogwarts
+                  </Link>
+                </li>
+                <li class="dropdown-item dropstart">
+                  <a
+                    role="button"
+                    class="nav-link dropdown-toggle"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Houses
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li>
+                      <Link className="dropdown-item" to="/Gryffindor">
+                        Gryffindor
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="dropdown-item" to="/Hufflepuff">
+                        Hufflepuff
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="dropdown-item" to="/Ravenclaw">
+                        Ravenclaw
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="dropdown-item" to="/Slytherin">
+                        Slytherin
+                      </Link>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
             </li>
           </ul>
         </div>

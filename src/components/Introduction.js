@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function Introduction() {
   return (
-    <div className="introduction-page container text-center p-5 m-5">
+    <div className="introduction-page mb-5 container text-center">
       <hr />
       <h2 className="h1">Welcome</h2>
       <p className="pt-4">
@@ -12,9 +12,10 @@ export default function Introduction() {
         series. If I forgot somethint I really glad if you tell me by click on
         the button below. I hope you enjoy it.
       </p>
-      <Link className="btn btn-warning" to="/Contact">
+      <Link className="btn btn-warning mb-5 mb-mb-0" to="/Contact">
         Contact us
       </Link>
+      <hr />
     </div>
   );
 }

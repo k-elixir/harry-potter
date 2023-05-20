@@ -4,8 +4,8 @@
 }
 .homePage-FirstPart {
   color: white;
-  background: top -200px center no-repeat url("./components/images/firstPart.jpg");
-  background-size: 1550px 860px;
+  background: center no-repeat url("./components/images/third.jpg");
+  background-size: cover;
 }
 .homePage-FirstPart .title {
   font-size: 100px;
@@ -14,21 +14,23 @@
   border-top: 3px solid;
   opacity: 0.75;
 }
-.introduction-page hr,
-.introduction-page p {
-  margin-right: 400px;
-  margin-left: 400px;
-  margin-bottom: 20px;
+div .introduction-page {
+  max-width: 500px;
+  padding-top: 100px;
+}
+div .contact-page {
+  max-width: 1000px;
+  padding-top: 50px;
 }
 .btn-contact-page {
-  background: linear-gradient(320deg, blue 5%, red 65%);
+  background: linear-gradient(320deg, blue 5%, grey 65%);
   color: white;
   width: 200px;
   border: 0px;
   font-size: 25px;
 }
 .btn-contact-page:hover {
-  background: linear-gradient(320deg, red 5%, blue 65%);
+  background: linear-gradient(320deg, grey 5%, blue 65%);
   color: white;
 }
 span {

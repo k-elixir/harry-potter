@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Contact() {
   return (
-    <main className="container text-center mb-5">
+    <div className="container text-center mb-5 contact-page">
       <h1 className="mb-5 mb-mb-0">
         <span>G</span>et in touch
       </h1>
@@ -49,6 +49,6 @@ export default function Contact() {
           </button>
         </div>
       </form>
-    </main>
+    </div>
   );
 }
