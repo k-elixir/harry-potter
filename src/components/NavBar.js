@@ -31,8 +31,8 @@ export default function NavBar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" aria-current="page" to="/Introduction">
-                Introduction
+              <Link className="nav-link" aria-current="page" to="/About">
+                About
               </Link>
             </li>
             <li className="nav-item">

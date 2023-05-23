@@ -2,7 +2,7 @@ import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import HomePage from "./components/HomePage";
-import Introduction from "./components/Introduction";
+import About from "./components/About";
 import Contact from "./components/Contact";
 import Gallery from "./components/Gallery";
 import Hogwarts from "./components/Hogwarts";
@@ -19,7 +19,7 @@ export default function App() {
         <NavBar />
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/Introduction" element={<Introduction />} />
+          <Route path="/About" element={<About />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Gallery" element={<Gallery />} />
           <Route path="/Hogwarts" element={<Hogwarts />} />

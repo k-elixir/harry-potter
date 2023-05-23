@@ -1,5 +1,15 @@
+:root {
+  --first-color: #ffffff;
+  --second-color: #cacee5;
+  --third-color: #822934;
+  --fourth-color: #0e111f;
+  --fifth-color: #17192c;
+  --default-font: "Prata", serif;
+  --paragraph-font: "Merienda", cursive;
+  --second-font: "Merriweather", serif;
+}
 .body {
-  background-color: black;
+  background-color: rgb(128, 84, 84);
   color: white;
 }
 .homePage-FirstPart {
@@ -14,10 +24,26 @@
   border-top: 3px solid;
   opacity: 0.75;
 }
-div .introduction-page {
-  max-width: 500px;
-  padding-top: 100px;
+.about-page p {
+  font-family: var(--paragraph-font);
 }
+.about-page img {
+  width: 456px;
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .about-page img {
+    width: 500px;
+  }
+}
+@media (min-width: 1400px) {
+  .about-page img {
+    width: 576px;
+  }
+  .about-page .about {
+    margin-top: 30px;
+  }
+}
+
 div .contact-page {
   max-width: 1000px;
   padding-top: 50px;
@@ -34,5 +60,5 @@ div .contact-page {
   color: white;
 }
 span {
-  color: red;
+  color: salmon;
 }
