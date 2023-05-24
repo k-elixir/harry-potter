@@ -1,16 +1,16 @@
 :root {
   --first-color: #ffffff;
-  --second-color: #cacee5;
-  --third-color: #822934;
+  --second-color: #272b3c;
+  --third-color: #0b1e1b;
   --fourth-color: #0e111f;
   --fifth-color: #17192c;
-  --default-font: "Prata", serif;
-  --paragraph-font: "Merienda", cursive;
-  --second-font: "Merriweather", serif;
+  --default-font: "Bluu Next", serif;
+  --paragraph-font: "Sofia Pro", serif;
 }
 .body {
-  background-color: rgb(128, 84, 84);
   color: white;
+  background-color: var(--second-color);
+  font-family: var(--default-font);
 }
 .homePage-FirstPart {
   color: white;
@@ -20,23 +20,35 @@
 .homePage-FirstPart .title {
   font-size: 100px;
 }
+.homePage-secondPart {
+  max-width: 1000px;
+  margin: auto;
+}
 .homePage hr {
   border-top: 3px solid;
   opacity: 0.75;
 }
+.about-page {
+  background-color: var(--third-color);
+}
 .about-page p {
   font-family: var(--paragraph-font);
 }
-.about-page img {
+.about-page-img {
   width: 456px;
 }
+.homePage-thirdPart img {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
 @media (min-width: 1200px) and (max-width: 1399px) {
-  .about-page img {
+  .about-page-img {
     width: 500px;
   }
 }
 @media (min-width: 1400px) {
-  .about-page img {
+  .about-page-img {
     width: 576px;
   }
   .about-page .about {
@@ -61,4 +73,5 @@ div .contact-page {
 }
 span {
   color: salmon;
+  font-size: 50px;
 }

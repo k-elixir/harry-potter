@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export default function NavBar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark">
+    <nav className="navbar navbar-expand-lg navbar-dark shadow-5-strong">
       <div className="container">
         <Link className="navbar-brand m-0 p-0" to="/">
           <img src={logo} alt="Logo" width={60} />

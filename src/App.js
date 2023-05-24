@@ -1,6 +1,5 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import NavBar from "./components/NavBar";
 import HomePage from "./components/HomePage";
 import About from "./components/About";
 import Contact from "./components/Contact";
@@ -16,7 +15,6 @@ export default function App() {
   return (
     <div className="body">
       <BrowserRouter>
-        <NavBar />
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/About" element={<About />} />
