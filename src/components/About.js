@@ -10,7 +10,7 @@ export default function About() {
       <div className="pt-5 pb-5 container">
         <div className="row">
           <div className="col-md d-none d-lg-block mt-5 pt-3 pt-xl-0 mt-xl-1">
-            <img className="about-page-img" src={picture} />
+            <img className="about-page-img" src={picture} alt="my Avatar" />
           </div>
           <div className="col-lg-6 about">
             <h2 className="h1">Hello!</h2>

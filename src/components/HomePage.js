@@ -1,5 +1,7 @@
 import React from "react";
 import NavBar from "./NavBar";
+import img from "./images/one.jpg";
+import train from "./images/train.jpg";
 import gryffindor from "./images/gryffindor.jpg";
 import ravenclaw from "./images/ravenclaw.jpg";
 import huffelpuff from "./images/huffelpuff.jpg";
@@ -35,8 +37,8 @@ export default function HomePage() {
           easiest way for you to learn. <br />
           Let's get on the train and go to Hogwarts.
         </p>
-        <Link className="btn btn-warning" to="/Hogwarts">
-          Train
+        <Link className="btn train-button" to="/Hogwarts">
+          <img src={train} width={130} alt="train" />
         </Link>
       </div>
       <div
@@ -68,10 +70,26 @@ export default function HomePage() {
           </div>
         </div>
       </div>
-      <div className="homePage-fourthPart">
+      <div
+        className="homePage-fourthPart p-5"
+        style={{ backgroundColor: "salmon" }}
+      >
         <div className="row">
-          <div className="col">patronus</div>
-          <div className="col">Wand</div>
+          <div className="col">
+            <img src={img} width={200} alt="patronus" />
+            <br />
+            patronus
+          </div>
+          <div className="col">
+            <img src={img} width={200} alt="want" />
+            <br />
+            Wand
+          </div>
+          <div className="col">
+            <img src={img} width={200} alt="quidditch" />
+            <br />
+            Quidditch
+          </div>
         </div>
       </div>
     </div>

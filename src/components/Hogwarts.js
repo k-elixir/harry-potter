@@ -1,5 +1,13 @@
 import React from "react";
+import NavBar from "./NavBar";
 
 export default function Hogwarts() {
-  return <h1>welcome to Hogwarts</h1>;
+  return (
+    <div className="hogwarts-page">
+      <NavBar />
+      <div className="container pt-5">
+        <h1>welcome to hogwarts</h1>
+      </div>
+    </div>
+  );
 }

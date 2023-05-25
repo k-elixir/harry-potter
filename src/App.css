@@ -20,6 +20,12 @@
 .homePage-FirstPart .title {
   font-size: 100px;
 }
+footer .footer {
+  border: solid white;
+}
+.train-button img {
+  border-radius: 40px;
+}
 .homePage-secondPart {
   max-width: 1000px;
   margin: auto;
@@ -55,21 +61,9 @@
     margin-top: 30px;
   }
 }
-
 div .contact-page {
-  max-width: 1000px;
+  max-width: 800px;
   padding-top: 50px;
-}
-.btn-contact-page {
-  background: linear-gradient(320deg, blue 5%, grey 65%);
-  color: white;
-  width: 200px;
-  border: 0px;
-  font-size: 25px;
-}
-.btn-contact-page:hover {
-  background: linear-gradient(320deg, grey 5%, blue 65%);
-  color: white;
 }
 span {
   color: salmon;

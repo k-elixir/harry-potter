@@ -45,53 +45,40 @@ export default function NavBar() {
                 Gallery
               </Link>
             </li>
-            <li className="nav-item dropdown">
+            <li className="nav-item">
+              <Link className="nav-link" aria-current="page" to="/Hogwarts">
+                Hogwarts
+              </Link>
+            </li>
+            <li class="dropdown-item dropdown">
               <a
-                className="nav-link dropdown-toggle"
-                href="#"
                 role="button"
+                class="nav-link dropdown-toggle"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Train
+                Houses
               </a>
-              <ul className="dropdown-menu dropdown-menu-dark">
+              <ul class="dropdown-menu dropdown-menu-dark">
                 <li>
-                  <Link className="dropdown-item" to="/Hogwarts">
-                    Hogwarts
+                  <Link className="dropdown-item" to="/Gryffindor">
+                    Gryffindor
                   </Link>
                 </li>
-                <li class="dropdown-item dropstart">
-                  <a
-                    role="button"
-                    class="nav-link dropdown-toggle"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Houses
-                  </a>
-                  <ul class="dropdown-menu dropdown-menu-dark">
-                    <li>
-                      <Link className="dropdown-item" to="/Gryffindor">
-                        Gryffindor
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="dropdown-item" to="/Hufflepuff">
-                        Hufflepuff
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="dropdown-item" to="/Ravenclaw">
-                        Ravenclaw
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="dropdown-item" to="/Slytherin">
-                        Slytherin
-                      </Link>
-                    </li>
-                  </ul>
+                <li>
+                  <Link className="dropdown-item" to="/Hufflepuff">
+                    Hufflepuff
+                  </Link>
+                </li>
+                <li>
+                  <Link className="dropdown-item" to="/Ravenclaw">
+                    Ravenclaw
+                  </Link>
+                </li>
+                <li>
+                  <Link className="dropdown-item" to="/Slytherin">
+                    Slytherin
+                  </Link>
                 </li>
               </ul>
             </li>
