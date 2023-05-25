@@ -1,15 +1,17 @@
 :root {
-  --first-color: #ffffff;
-  --second-color: #272b3c;
-  --third-color: #0b1e1b;
-  --fourth-color: #0e111f;
-  --fifth-color: #17192c;
+  --default-color: #151827;
+  --font-color: #ffffff;
+  --Gryffindor: #5a2222;
+  --Huffelpuff: #b47d30;
+  --Ravenclaw: #173256;
+  --Slytherin: #0b1e1b;
+
   --default-font: "Bluu Next", serif;
   --paragraph-font: "Sofia Pro", serif;
 }
 .body {
   color: white;
-  background-color: var(--second-color);
+  background-color: #817d7a;
   font-family: var(--default-font);
 }
 .homePage-FirstPart {
@@ -35,7 +37,7 @@ footer .footer {
   opacity: 0.75;
 }
 .about-page {
-  background-color: var(--third-color);
+  background-color: var(--Slytherin);
 }
 .about-page p {
   font-family: var(--paragraph-font);
@@ -60,6 +62,9 @@ footer .footer {
   .about-page .about {
     margin-top: 30px;
   }
+}
+.contact-pageinput {
+  background-color: transparent;
 }
 div .contact-page {
   max-width: 800px;

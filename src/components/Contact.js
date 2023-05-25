@@ -1,23 +1,25 @@
 import React from "react";
 import NavBar from "./NavBar";
+import github from "./images/github.png";
+import linkedin from "./images/linkedin-100.png";
+import email from "./images/email-100.png";
+import shecodes from "./images/shecodes.png";
 
 export default function Contact() {
   return (
     <div>
       <NavBar />
-      <div className="row">
-        <div className="col-8">
-          <div className="container text-center mb-5 contact-page">
-            <h1 className="mb-5 mb-mb-0">
-              <span>G</span>et in touch
-            </h1>
+      <h3 className="text-center h1">Contact Me</h3>
+      <div className="row container contact-page">
+        <div className="col">
+          <div className="text-center m-auto pb-5">
             <form action="https://formspree.io/f/xknaqqvk" method="POST">
               <div className="row">
                 <div className="col-6">
                   <input
                     type="text"
                     name="First name"
-                    className="form-control p-3"
+                    className="form-control border-top-0"
                     placeholder="First name"
                   />
                 </div>
@@ -50,13 +52,28 @@ export default function Contact() {
                   type="submit"
                   className="btn btn-warning p-3 mb-5 mb-mb-0"
                 >
-                  Submit
+                  Send Message
                 </button>
               </div>
             </form>
           </div>
         </div>
-        <div className="col-1"></div>
+        <div className="col-1 mt-5 pt-5">
+          <a href="https://github.com/k-elixir">
+            <img src={github} alt="github icon" width={60} />
+          </a>
+          <a href="https://github.com/k-elixir">
+            <img src={email} alt="email icon" width={60} />
+          </a>
+          <a href="https://github.com/k-elixir">
+            <img src={linkedin} alt="linkedin icon" width={60} />
+          </a>
+          <br />
+          <br />
+          <a href="https://github.com/k-elixir">
+            <img src={shecodes} alt="shecodes icon" width={55} />
+          </a>
+        </div>
       </div>
     </div>
   );

@@ -77,8 +77,7 @@ export default function HomePage() {
         <div className="row">
           <div className="col">
             <img src={img} width={200} alt="patronus" />
-            <br />
-            patronus
+            Expecto Patronum! What is a Patronus?
           </div>
           <div className="col">
             <img src={img} width={200} alt="want" />
