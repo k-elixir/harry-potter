@@ -1,5 +1,6 @@
 import React from "react";
 import NavBar from "./NavBar";
+import Footer from "./Footer";
 import picture from "./images/picture.png";
 import { Link } from "react-router-dom";
 
@@ -13,7 +14,7 @@ export default function About() {
             <img className="about-page-img" src={picture} alt="my Avatar" />
           </div>
           <div className="col-lg-6 about">
-            <h2 className="h1">Hello!</h2>
+            <span className="h1">Hello!</span>
             <p className="pt-3 fs-5">
               My name is Kimia and welcome to my Harry Potter website.
               <br />
@@ -36,6 +37,7 @@ export default function About() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

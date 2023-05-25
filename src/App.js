@@ -2,14 +2,13 @@ import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./components/HomePage";
 import About from "./components/About";
-import Contact from "./components/Contact";
+import Contact from "./components/Contact/Contact";
 import Gallery from "./components/Gallery";
 import Hogwarts from "./components/Hogwarts";
 import Gryffindor from "./components/Gryffindor";
 import Ravenclaw from "./components/Ravenclaw";
 import Hufflepuff from "./components/Hufflepuff";
 import Slytherin from "./components/Slytherin";
-import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -26,7 +25,6 @@ export default function App() {
           <Route path="/Hufflepuff" element={<Hufflepuff />} />
           <Route path="/Slytherin" element={<Slytherin />} />
         </Routes>
-        <Footer />
       </BrowserRouter>
     </div>
   );

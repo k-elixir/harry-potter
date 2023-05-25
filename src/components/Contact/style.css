@@ -1,0 +1,11 @@
+.contact-page input,
+.contact-page textarea {
+  color: aliceblue;
+  background-color: transparent;
+}
+.contact-page .forms {
+  max-width: 500px;
+}
+div .contact-page {
+  padding-top: 50px;
+}
