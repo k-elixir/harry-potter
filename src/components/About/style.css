@@ -1,8 +1,5 @@
 .about-page {
-  background-color: var(--Slytherin);
-}
-.about-page p {
-  font-family: var(--paragraph-font);
+  background-color: #0b1e1b;
 }
 .about-page-img {
   width: 456px;

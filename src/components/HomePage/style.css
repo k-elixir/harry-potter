@@ -3,7 +3,7 @@
   background: center no-repeat url("./images/third.jpg");
   background-size: cover;
 }
-.homePage-FirstPart .title {
+.title {
   font-size: 100px;
 }
 footer .footer {
@@ -16,7 +16,7 @@ footer .footer {
   max-width: 1000px;
   margin: auto;
 }
-.homePage hr {
+div hr {
   border-top: 3px solid;
   opacity: 0.75;
 }
