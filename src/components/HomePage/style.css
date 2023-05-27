@@ -1,0 +1,27 @@
+.homePage-FirstPart {
+  color: white;
+  background: center no-repeat url("./images/third.jpg");
+  background-size: cover;
+}
+.homePage-FirstPart .title {
+  font-size: 100px;
+}
+footer .footer {
+  border: solid white;
+}
+.train-button img {
+  border-radius: 40px;
+}
+.homePage-secondPart {
+  max-width: 1000px;
+  margin: auto;
+}
+.homePage hr {
+  border-top: 3px solid;
+  opacity: 0.75;
+}
+
+.homePage-thirdPart img {
+  width: 300px;
+  margin-bottom: 20px;
+}

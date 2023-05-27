@@ -1,6 +1,7 @@
 import React from "react";
-import NavBar from "./NavBar";
-import Footer from "./Footer";
+import "./style.css";
+import NavBar from "../NavBar";
+import Footer from "../Footer";
 import img from "./images/one.jpg";
 import train from "./images/train.jpg";
 import gryffindor from "./images/gryffindor.jpg";

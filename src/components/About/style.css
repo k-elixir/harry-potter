@@ -1,0 +1,23 @@
+.about-page {
+  background-color: var(--Slytherin);
+}
+.about-page p {
+  font-family: var(--paragraph-font);
+}
+.about-page-img {
+  width: 456px;
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .about-page-img {
+    width: 500px;
+  }
+}
+@media (min-width: 1400px) {
+  .about-page-img {
+    width: 576px;
+  }
+  .about-page .about {
+    margin-top: 30px;
+  }
+}

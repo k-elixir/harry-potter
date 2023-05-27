@@ -7,10 +7,6 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
-// import github from "./images/github.png";
-// import linkedin from "./images/linkedin-100.png";
-// import email from "./images/email-100.png";
-// import shecodes from "./images/shecodes.png";
 
 export default function Contact() {
   return (

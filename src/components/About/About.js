@@ -1,6 +1,7 @@
 import React from "react";
-import NavBar from "./NavBar";
-import Footer from "./Footer";
+import "./style.css";
+import NavBar from "../NavBar";
+import Footer from "../Footer";
 import picture from "./images/picture.png";
 import { Link } from "react-router-dom";
 

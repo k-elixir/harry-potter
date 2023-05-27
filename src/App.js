@@ -1,14 +1,14 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import HomePage from "./components/HomePage";
-import About from "./components/About";
+import HomePage from "./components/HomePage/HomePage";
+import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
 import Gallery from "./components/Gallery";
 import Hogwarts from "./components/Hogwarts";
-import Gryffindor from "./components/Gryffindor";
-import Ravenclaw from "./components/Ravenclaw";
-import Hufflepuff from "./components/Hufflepuff";
-import Slytherin from "./components/Slytherin";
+import Gryffindor from "./components/Gryffindor/Gryffindor";
+import Ravenclaw from "./components/Ravenclaw/Ravenclaw";
+import Hufflepuff from "./components/Hufflepuff/Hufflepuff";
+import Slytherin from "./components/Slytherin/Slytherin";
 
 export default function App() {
   return (
