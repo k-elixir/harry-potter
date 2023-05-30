@@ -51,14 +51,14 @@ export default function NavBar() {
               </Link>
             </li>
             <li class="dropdown-item dropdown">
-              <a
+              <div
                 role="button"
                 class="nav-link dropdown-toggle"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
                 Houses
-              </a>
+              </div>
               <ul class="dropdown-menu dropdown-menu-dark">
                 <li>
                   <Link className="dropdown-item" to="/Gryffindor">
