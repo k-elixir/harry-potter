@@ -4,11 +4,23 @@
   background-color: transparent;
 }
 .contact-page .forms {
-  max-width: 500px;
+  max-width: 1000px;
+  border: 5px;
+  background-color: bisque;
+  padding: 100px;
+  padding-right: 300px !important;
 }
 div .contact-page {
   padding-top: 50px;
 }
 div h3 .title-contact {
   font-size: 200px;
+}
+.icones-col {
+  border: 3px solid salmon;
+  background-color: slategrey;
+  position: absolute;
+  padding: 100px;
+  right: 300px;
+  top: 350px;
 }
