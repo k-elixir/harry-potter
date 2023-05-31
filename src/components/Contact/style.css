@@ -1,26 +1,98 @@
 .contact-page input,
 .contact-page textarea {
-  color: aliceblue;
+  color: white;
   background-color: transparent;
+  border: 1px solid #151827;
+  width: 600px;
+}
+.contact-page input::placeholder,
+.contact-page textarea::placeholder {
+  color: #151827;
+}
+.contact-page input:focus,
+.contact-page textarea:focus {
+  background-color: #151827;
+  color: white;
+  box-shadow: none;
+  border: none;
+}
+.contact-page button {
+  background-color: #151827;
+  color: #817d7a;
+}
+.contact-page button:hover {
+  border: 1px solid #151827;
+  color: white;
 }
 .contact-page .forms {
   max-width: 1000px;
   border: 5px;
-  background-color: bisque;
+  background-color: #817d7a;
   padding: 100px;
-  padding-right: 300px !important;
+  margin-bottom: 100px;
 }
 div .contact-page {
   padding-top: 50px;
 }
-div h3 .title-contact {
-  font-size: 200px;
+div .title-contact {
+  font-size: 50px;
 }
 .icones-col {
-  border: 3px solid salmon;
-  background-color: slategrey;
+  background-color: #151827;
+  box-shadow: 10px 10px 10px 5px #131420;
   position: absolute;
-  padding: 100px;
-  right: 300px;
-  top: 350px;
+  padding: 60px;
+  right: 160px;
+  top: 240px;
+  max-width: 450px !important;
+}
+div a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: #817d7a !important;
+}
+div .icon-col-2 {
+  display: none;
+}
+@media (max-width: 1400px) {
+  .icones-col {
+    right: 50px;
+  }
+}
+@media (max-width: 1220px) {
+  .contact-page .forms {
+    max-width: 900px;
+    padding: 80px;
+  }
+  .contact-page input,
+  .contact-page textarea {
+    width: 450px;
+  }
+  .icones-col {
+    padding: 50px;
+    right: 50px;
+  }
+}
+@media (max-width: 991px) {
+  div .icon-col-2 {
+    display: block;
+    padding-top: 40px;
+  }
+  div .icon-col-2 a {
+    color: #151827;
+  }
+  .contact-page input,
+  .contact-page textarea {
+    width: 100%;
+  }
+  .icones-col {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  .contact-page .forms {
+    padding: 18px;
+  }
 }
