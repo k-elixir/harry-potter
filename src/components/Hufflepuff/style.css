@@ -1,3 +1,7 @@
 div .huffelpuff {
   background-color: #b47d30;
+  color: black;
+}
+div .carousel {
+  max-width: 400px;
 }

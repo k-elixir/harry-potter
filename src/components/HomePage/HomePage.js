@@ -12,7 +12,7 @@ import { Link } from "react-router-dom";
 
 export default function HomePage() {
   return (
-    <div>
+    <div id="up">
       <div className="homePage text-center">
         <div className="homePage-FirstPart">
           <NavBar />

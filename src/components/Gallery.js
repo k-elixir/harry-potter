@@ -3,7 +3,7 @@ import NavBar from "./NavBar";
 
 export default function Gallery() {
   return (
-    <div>
+    <div id="up">
       <NavBar />
       <h1>this is hogwarts gallery</h1>
     </div>

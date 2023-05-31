@@ -10,7 +10,7 @@ import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 
 export default function Contact() {
   return (
-    <div>
+    <div id="up">
       <NavBar />
       <div className="container contact-page">
         <div className="forms ms-xl-5">

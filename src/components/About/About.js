@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 export default function About() {
   return (
-    <div className="about-page">
+    <div className="about-page" id="up">
       <NavBar />
       <div className="pt-5 pb-5 container">
         <div className="row">
@@ -34,7 +34,9 @@ export default function About() {
             <Link className="btn btn-warning mt-2 " to="/Contact">
               Contact me
             </Link>
-            <hr />
+            <div className="d-none d-lg-block">
+              <hr />
+            </div>
           </div>
         </div>
       </div>
