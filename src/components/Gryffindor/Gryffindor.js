@@ -5,7 +5,7 @@ import "./style.css";
 import pic from "./images/59d91b99edf46b06a90fa031b7e9f8a6.jpg";
 export default function Gryffindor() {
   return (
-    <div className="gryffindor">
+    <div className="gryffindor" id="up">
       <NavBar />
       <div className="container ">
         <div className="p-5">
@@ -62,6 +62,7 @@ export default function Gryffindor() {
           </div>
           <div className="member p-5 mt-5 mb-5 d-flex justify-content-between">
             <img src={pic} alt="gryffindor" height={400} width={300} />
+            
             <img src={pic} alt="gryffindor" height={400} width={300} />
             <img src={pic} alt="gryffindor" height={400} width={300} />
           </div>
