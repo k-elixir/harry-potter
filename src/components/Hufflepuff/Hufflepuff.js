@@ -23,40 +23,50 @@ export default function Hufflepuff() {
         <div className="row">
           <div className="col-8">
             <p className="fs-5">
-              Hufflepuff was one of the four Houses of Hogwarts School of
-              Witchcraft and Wizardry. Its founder was the medieval witch Helga
-              Hufflepuff. Hufflepuff was the most inclusive among the four
-              houses, valuing hard work, dedication, patience, loyalty, and fair
-              play rather than a particular aptitude in its members.
+              Hufflepuff is one of the four Hogwarts houses of Witchcraft and
+              Wizardry, founded by Helga Hufflepuff. The house colors are yellow
+              and black, and its emblematic animal is the badger.
               <br />
-              Hufflepuff corresponded roughly to the element of earth, and it
-              was for that reason that the House colours were chosen: yellow
-              represented wheat, while black was emblematic of soil. The
-              Hufflepuff point hourglass contained yellow diamonds. Students
-              sorted into Hufflepuff often demonstrated strong abilities in
-              Herbology, owing to their correspondence to earth.
+              Hufflepuff is the most inclusive among the four houses; valuing
+              hard work, patience, loyalty, and fair play rather than a
+              particular aptitude in its members.
               <br />
-              Students belonging to this house were known to be hard-working,
-              friendly, loyal, honest and rather impartial. It might be that due
-              to their values, Hufflepuffs were not as competitive as the other
-              houses, and were more modest about their accomplishments.
-              Hufflepuff was the most inclusive among the four houses; valuing
-              hard work, dedication, patience, loyalty, and fair play rather
-              than a particular aptitude in its students.
+              Hufflepuff is sometimes perceived as being a miscellaneous
+              category. To be “the Hufflepuff of” something can refer to an
+              incoherent catchall, a place to put all the stuff you don't have
+              another place for.
               <br />
-              Hufflepuffs were known to have a strong moral code, and a sense of
-              right and wrong. Hufflepuffs were usually accepting of everyone.
-              Students in Hufflepuff were known to value everyone and treat them
-              as equal.
+              The entrance to the Hufflepuff common room is concealed in a stack
+              of large barrels in a nook on the right-hand side of the kitchen
+              corridor. You have to tap the barrel two from the bottom, middle
+              of the second row, in the rhythm of 'Helga Hufflepuff,' and the
+              lid will swing open. <br />
+              Hufflepuff characteristics include a strong sense of justice,
+              loyalty, patience, and a propensity for hard work. Hufflepuffs are
+              also seen as nice, almost to a fault.
               <br />
-              Hufflepuff appeared to have the least rivalry with the other
-              houses, except in Quidditch, although the Triwizard Tournament did
-              temporarily put a great deal of strain on the relationship between
-              Gryffindor and Hufflepuff, due to unusual circumstances of the
-              selection of both Gryffindor student Harry Potter and Hufflepuff
-              student Cedric Diggory as champions. This was mended by 1998,
-              where a majority of Hufflepuffs rose to defend Harry from Pansy
-              Parkinson and later helped to defend Hogwarts.
+              Hogwarts houses have moved beyond the realm of fiction and into
+              the real world. It's common for fans (known as Potterheads) to
+              sort themselves, each other, fictional characters from other
+              stories into houses, and celebrities or public figures. Quizzes to
+              figure out what house you'd be sorted into are common.
+              <br />
+              Among Potterheads, a person's Hogwarts House is an important part
+              of their identity, and often a source of pride. There is even a
+              Hufflepuff Pride day.
+              <br />
+              Hufflepuff is sometimes perceived as being a miscellaneous
+              category. To be “the Hufflepuff of” something can refer to an
+              incoherent catchall, a place to put all the stuff you don't have
+              another place for. Hufflepuff can also denote someone or something
+              that's not particularly memorable, with no notable
+              characteristics.
+              <br />
+              J.K. Rowling has made a statement that Hufflepuff is just as
+              admirable a house as any other. However, the perception of
+              Hufflepuff remains a point of contention within the Harry Potter
+              fanbase, which has led to articles about the positive aspects of
+              being a Hufflepuff.
             </p>
           </div>
 

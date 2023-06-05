@@ -18,6 +18,10 @@ export default function Slytherin() {
           <hr />
         </div>
       </div>
+      <div className="row">
+        <div className="col-8"></div>
+        <div></div>
+      </div>
       <div className="container">
         <h3 className="h1">House Cup</h3>
         <ul className="fs-5">
