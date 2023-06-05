@@ -18,7 +18,7 @@
 }
 .contact-page button {
   background-color: #151827;
-  color: #817d7a;
+  color: silver;
 }
 .contact-page button:hover {
   border: 1px solid #151827;
@@ -27,7 +27,7 @@
 .contact-page .forms {
   max-width: 1000px;
   border: 5px;
-  background-color: #817d7a;
+  background-color: silver;
   padding: 100px;
   margin-bottom: 100px;
 }
@@ -51,7 +51,7 @@ div a {
   text-decoration: none;
 }
 a:hover {
-  color: #817d7a !important;
+  color: silver !important;
 }
 div .icon-col-2 {
   display: none;

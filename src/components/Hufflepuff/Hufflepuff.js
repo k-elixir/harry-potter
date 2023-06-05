@@ -72,7 +72,7 @@ export default function Hufflepuff() {
 
           <div
             id="carouselExampleCaptions"
-            class="carousel slide"
+            class="carousel slide col"
             data-bs-ride="carousel"
           >
             <div class="carousel-indicators">
@@ -152,6 +152,12 @@ export default function Hufflepuff() {
               <span class="visually-hidden">Next</span>
             </button>
           </div>
+        </div>
+        <div className="member p-5 mt-5 mb-5 d-flex justify-content-between">
+          <img src={pic} alt="gryffindor" height={400} width={300} />
+
+          <img src={pic} alt="gryffindor" height={400} width={300} />
+          <img src={pic} alt="gryffindor" height={400} width={300} />
         </div>
       </div>
       <Footer />

@@ -44,10 +44,7 @@ export default function HomePage() {
             <img src={train} width={130} alt="train" />
           </Link>
         </div>
-        <div
-          className="homePage-thirdPart text-center p-5"
-          style={{ backgroundColor: "grey" }}
-        >
+        <div className="homePage-thirdPart text-center p-5">
           <div className="row justify-content-center">
             <div className="col-auto">
               <Link to="/Gryffindor">
@@ -59,8 +56,6 @@ export default function HomePage() {
                 <img src={huffelpuff} alt="Huffenpuff" />
               </Link>
             </div>
-          </div>
-          <div className="row justify-content-center">
             <div className="col-auto">
               <Link to="/Ravenclaw">
                 <img src={ravenclaw} alt="Ravenclaw" />

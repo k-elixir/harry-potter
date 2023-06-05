@@ -1,3 +1,6 @@
 div .slytherin {
   background-color: #0b1e1b;
 }
+.slytherin .member {
+  background-color: silver;
+}

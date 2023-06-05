@@ -1,3 +1,7 @@
 div .ravenclaw {
   background-color: #173256;
 }
+
+.ravenclaw .member {
+  background-color: #a7907a;
+}
