@@ -8,7 +8,7 @@ export default function Ravenclaw() {
     <div className="ravenclaw" id="up">
       <NavBar />
       <div className="container">
-        <div className="p-5">
+        <div className="pb-5 pt-5">
           <div className="pt-5 mt-4 pb-5 mb-5 text-center">
             <hr />
             <h1 className="title p-md-5">Ravenclaw</h1>

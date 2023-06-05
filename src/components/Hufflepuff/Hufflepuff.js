@@ -9,7 +9,7 @@ export default function Hufflepuff() {
     <div className="huffelpuff" id="up">
       <NavBar />
       <div className="container">
-        <div className="p-5">
+        <div className="pb-5 pt-5">
           <div className="text-center pt-5 mt-4 pb-5 mb-5">
             <hr />
             <h1 className="title p-md-5">Huffelpuff</h1>

@@ -8,7 +8,7 @@ export default function Gryffindor() {
     <div className="gryffindor" id="up">
       <NavBar />
       <div className="container ">
-        <div className="p-5">
+        <div className="pt-5 pb-5">
           <div className="pt-5 mt-4 pb-5 mb-5 text-center">
             <hr />
             <h1 className="title p-md-5">Gryffindor</h1>
@@ -62,7 +62,7 @@ export default function Gryffindor() {
           </div>
           <div className="member p-5 mt-5 mb-5 d-flex justify-content-between">
             <img src={pic} alt="gryffindor" height={400} width={300} />
-            
+
             <img src={pic} alt="gryffindor" height={400} width={300} />
             <img src={pic} alt="gryffindor" height={400} width={300} />
           </div>
