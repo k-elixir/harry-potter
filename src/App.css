@@ -8,7 +8,9 @@
   color: white;
   background-color: var(--default-color);
   font-family: var(--default-font);
-  cursor: url("./components/images/wand.gif");
+}
+div {
+  cursor: url("./components/images/output-onlinegiftools.gif");
 }
 span {
   color: silver;
