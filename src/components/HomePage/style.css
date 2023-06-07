@@ -3,6 +3,7 @@
   background: center no-repeat url("./images/third.jpg");
   background-size: cover;
 }
+
 .title {
   font-size: 100px;
 }
@@ -24,4 +25,8 @@ div hr {
 .homePage-thirdPart img {
   width: 300px;
   margin-bottom: 20px;
+}
+.homePage-fourthPart {
+  background-color: silver;
+  color: #151827;
 }

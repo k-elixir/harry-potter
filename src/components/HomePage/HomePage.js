@@ -2,7 +2,8 @@ import React from "react";
 import "./style.css";
 import NavBar from "../NavBar";
 import Footer from "../Footer";
-import img from "./images/one.jpg";
+import death from "./images/deathly.jpeg";
+import patronus from "./images/patronus.webp";
 import train from "./images/train.jpg";
 import gryffindor from "./images/gryffindor.jpg";
 import ravenclaw from "./images/ravenclaw.jpg";
@@ -44,24 +45,45 @@ export default function HomePage() {
             <img src={train} width={130} alt="train" />
           </Link>
         </div>
-        <div
-          className="homePage-fourthPart p-5  text-center container"
-          style={{ backgroundColor: "Silver" }}
-        >
+        <div className="homePage-fourthPart p-5 mt-5 mb-5 container">
           <div className="row">
             <div className="col">
-              <img src={img} width={200} alt="patronus" />
-              Expecto Patronum! What is a Patronus?
+              <div className="row">
+                <div className="col text-center">
+                  <img src={patronus} width={200} alt="patronus" />
+                </div>
+                <div className="col mt-3">
+                  <h5>Expecto Patronum!</h5>
+                  <br />
+                  The Patronus is a form of advanced magic which even the most
+                  qualified wizards can struggle with.
+                </div>
+              </div>
             </div>
             <div className="col">
-              <img src={img} width={200} alt="want" />
-              <br />
-              Wand
+              <div className="row">
+                <div className="col text-center">
+                  <img src={death} width={200} alt="patronus" />
+                </div>
+                <div className="col mt-3">
+                  <h5>Deathly Hallows</h5>
+                  <br />
+                  The three legendary objects, (the cloak, the wand and the
+                  stone) together made up the Deathly Hallows.
+                </div>
+              </div>
             </div>
             <div className="col">
-              <img src={img} width={200} alt="quidditch" />
-              <br />
-              Quidditch
+              <div className="row">
+                <div className="col text-center">
+                  <img src={death} width={200} alt="patronus" />
+                </div>
+                <div className="col">
+                  <h5>Expecto Patronum!</h5>
+                  <br />
+                  What is a Patronus?
+                </div>
+              </div>
             </div>
           </div>
         </div>
