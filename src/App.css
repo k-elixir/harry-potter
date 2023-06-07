@@ -1,6 +1,5 @@
 :root {
   --default-color: #151827;
-  --details-color: silver;
 
   --default-font: "Bluu Next", serif;
   --paragraph-font: "Sofia Pro", serif;
@@ -9,9 +8,10 @@
   color: white;
   background-color: var(--default-color);
   font-family: var(--default-font);
+  cursor: url("./components/images/wand.gif");
 }
 span {
-  color: var(--details-color);
+  color: silver;
   font-size: 50px;
 }
 div .navbar-toggler-icon {

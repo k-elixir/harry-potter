@@ -13,8 +13,8 @@ import { Link } from "react-router-dom";
 export default function HomePage() {
   return (
     <div id="up">
-      <div className="homePage text-center">
-        <div className="homePage-FirstPart">
+      <div className="homePage">
+        <div className="homePage-FirstPart text-center">
           <NavBar />
           <div className="p-5">
             <div className="container pt-5 mt-4 pb-5 mb-5">
@@ -44,6 +44,27 @@ export default function HomePage() {
             <img src={train} width={130} alt="train" />
           </Link>
         </div>
+        <div
+          className="homePage-fourthPart p-5  text-center container"
+          style={{ backgroundColor: "Silver" }}
+        >
+          <div className="row">
+            <div className="col">
+              <img src={img} width={200} alt="patronus" />
+              Expecto Patronum! What is a Patronus?
+            </div>
+            <div className="col">
+              <img src={img} width={200} alt="want" />
+              <br />
+              Wand
+            </div>
+            <div className="col">
+              <img src={img} width={200} alt="quidditch" />
+              <br />
+              Quidditch
+            </div>
+          </div>
+        </div>
         <div className="homePage-thirdPart text-center p-5">
           <div className="row justify-content-center">
             <div className="col-auto">
@@ -68,26 +89,12 @@ export default function HomePage() {
             </div>
           </div>
         </div>
-        <div
-          className="homePage-fourthPart p-5"
-          style={{ backgroundColor: "salmon" }}
-        >
-          <div className="row">
-            <div className="col">
-              <img src={img} width={200} alt="patronus" />
-              Expecto Patronum! What is a Patronus?
-            </div>
-            <div className="col">
-              <img src={img} width={200} alt="want" />
-              <br />
-              Wand
-            </div>
-            <div className="col">
-              <img src={img} width={200} alt="quidditch" />
-              <br />
-              Quidditch
-            </div>
-          </div>
+        <div className="container text-center">
+          <h4>
+            1,090,739 words, 3,363 pages, 199 chapter, 17 hours and 14 minutes,
+            772 characters, 8 movies, 7 books, 1 story, and this is{" "}
+          </h4>
+          <span>Harry Potter</span>
         </div>
         <Footer />
       </div>
