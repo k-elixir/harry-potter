@@ -41,9 +41,11 @@ export default function HomePage() {
             the easiest way for you to learn. <br />
             Let's get on the train and go to Hogwarts.
           </p>
-          <Link className="btn train-button" to="/Hogwarts">
-            <img src={train} width={130} alt="train" />
-          </Link>
+          <div className="text-center">
+            <Link className="btn train-button" to="/Hogwarts">
+              <img src={train} width={130} alt="train" />
+            </Link>
+          </div>
         </div>
         <div className="homePage-fourthPart p-5 mt-5 mb-5 container">
           <div className="row">

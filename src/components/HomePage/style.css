@@ -1,6 +1,6 @@
 .homePage-FirstPart {
   color: white;
-  background: center no-repeat url("./images/third.jpg");
+  background: center no-repeat url("./images/pxfuel\ \(1\).jpg");
   background-size: cover;
 }
 
@@ -23,7 +23,6 @@ div .train-button {
   padding: 0px;
   transform: 0.3s ease-in-out;
 }
-
 .homePage-secondPart {
   max-width: 1000px;
   margin: auto;

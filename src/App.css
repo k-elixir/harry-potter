@@ -1,5 +1,5 @@
 :root {
-  --default-color: #151827;
+  --default-color: #0c131a;
 
   --default-font: "Bluu Next", serif;
   --paragraph-font: "Sofia Pro", serif;
@@ -15,6 +15,7 @@ div {
 span {
   color: silver;
   font-size: 50px;
+  font-family: "Special Elite", cursive;
 }
 div .navbar-toggler-icon {
   width: 1em;
