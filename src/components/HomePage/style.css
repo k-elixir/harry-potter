@@ -13,6 +13,17 @@ footer .footer {
 .train-button img {
   border-radius: 40px;
 }
+div .train-button {
+  padding: 0px;
+  transition: 0.3s;
+}
+.train-button:hover {
+  box-shadow: 6px 6px 10px 5px black;
+  border-radius: 40px;
+  padding: 0px;
+  transform: 0.3s ease-in-out;
+}
+
 .homePage-secondPart {
   max-width: 1000px;
   margin: auto;

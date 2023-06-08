@@ -5,7 +5,7 @@ import Footer from "../Footer";
 
 export default function Hogwarts() {
   return (
-    <div className="" id="up">
+    <div id="up">
       <div className="hogwarts-page">
         <NavBar />
         <div className="p-5 text-center">
