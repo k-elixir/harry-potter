@@ -10,7 +10,7 @@ import gryffindor from "./images/gryffindor.jpg";
 import ravenclaw from "./images/ravenclaw.jpg";
 import huffelpuff from "./images/huffelpuff.jpg";
 import slytherin from "./images/slytherin.jpg";
-import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 export default function HomePage() {
   return (
@@ -43,9 +43,9 @@ export default function HomePage() {
             Let's get on the train and go to Hogwarts.
           </p>
           <div className="text-center">
-            <Link className="btn train-button" to="/Hogwarts">
+            <HashLink className="btn train-button" to="/Hogwarts#up">
               <img src={train} width={130} alt="train" />
-            </Link>
+            </HashLink>
           </div>
         </div>
         <div className=" container homePage-fourthPart p-3 pt-5 pb-5 p-sm-5 p-xl-4 mt-5 mb-5 img-fluid">
@@ -53,9 +53,9 @@ export default function HomePage() {
             <div className="col-lg">
               <div className="row">
                 <div className="col text-center">
-                  <Link to="/Hogwarts#patronus">
+                  <HashLink to="/Hogwarts#patronus">
                     <img src={patronus} width={200} alt="patronus" />
-                  </Link>
+                  </HashLink>
                 </div>
                 <div className="col-sm mt-3 pe-4 ps-4 p-xl-0">
                   <h4>Expecto Patronum!</h4>
@@ -69,9 +69,9 @@ export default function HomePage() {
             <div className="col-lg">
               <div className="row pt-4 pt-lg-0">
                 <div className="col text-center">
-                  <Link to="/Hogwarts#death">
+                  <HashLink to="/Hogwarts#death">
                     <img src={death} width={200} alt="patronus" />
-                  </Link>
+                  </HashLink>
                 </div>
                 <div className="col-sm mt-3 pe-4 ps-4 p-xl-0">
                   <h4>Deathly Hallows</h4>
@@ -85,9 +85,9 @@ export default function HomePage() {
             <div className="col-lg">
               <div className="row pt-4 pt-lg-0">
                 <div className="col-sm text-center">
-                  <Link id="/Hogwarts#diagon">
+                  <HashLink to="/Hogwarts#diagon">
                     <img src={diagon} width={200} alt="patronus" />
-                  </Link>
+                  </HashLink>
                 </div>
                 <div className="col mt-3 pe-4 ps-4 p-xl-0">
                   <h4>Diagon Alley</h4>
@@ -100,24 +100,24 @@ export default function HomePage() {
         <div className="homePage-thirdPart text-center p-sm-5">
           <div className="row justify-content-center">
             <div className="col-auto">
-              <Link to="/Gryffindor">
+              <HashLink to="/Gryffindor#up">
                 <img src={gryffindor} alt="Gryffindor" />
-              </Link>
+              </HashLink>
             </div>
             <div className="col-auto">
-              <Link to="/Huffelpuff">
+              <HashLink to="/Hufflepuff#up">
                 <img src={huffelpuff} alt="Huffenpuff" />
-              </Link>
+              </HashLink>
             </div>
             <div className="col-auto">
-              <Link to="/Ravenclaw">
+              <HashLink to="/Ravenclaw#up">
                 <img src={ravenclaw} alt="Ravenclaw" />
-              </Link>
+              </HashLink>
             </div>
             <div className="col-auto">
-              <Link to="/Slytherin">
+              <HashLink to="/Slytherin#up">
                 <img src={slytherin} alt="Slytherin" />
-              </Link>
+              </HashLink>
             </div>
           </div>
         </div>
