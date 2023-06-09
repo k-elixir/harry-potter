@@ -5,10 +5,12 @@
 .hogwarts {
   background-color: #2e4763;
 }
-.hogwarts img,
-.hogwarts iframe {
+.hogwarts img {
   border-radius: 10px;
 }
 #diagon img {
   width: 500px;
+}
+#patronus li {
+  font-size: 1.3rem;
 }

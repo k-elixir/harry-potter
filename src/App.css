@@ -8,6 +8,7 @@
   color: white;
   background-color: var(--default-color);
   font-family: var(--default-font);
+  text-align: justify;
 }
 div {
   cursor: url("./components/images/output-onlinegiftools.gif");
@@ -24,4 +25,12 @@ div .navbar-toggler-icon {
 footer img {
   width: 90px;
   margin-left: -10px;
+}
+.title {
+  font-size: 55px;
+}
+@media (min-width: 490px) {
+  .title {
+    font-size: 100px;
+  }
 }

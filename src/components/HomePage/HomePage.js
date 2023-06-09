@@ -49,7 +49,7 @@ export default function HomePage() {
             </HashLink>
           </div>
         </div>
-        <div className=" container homePage-fourthPart p-3 pt-5 pb-5 p-sm-5 p-xl-4 mt-5 mb-5 img-fluid">
+        <div className="container homePage-fourthPart p-3 pt-5 pb-5 p-sm-5 p-xl-4 mt-5 mb-5 img-fluid">
           <div className="row">
             <div className="col-lg">
               <div className="row">
