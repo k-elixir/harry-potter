@@ -29,8 +29,9 @@ export default function HomePage() {
           </div>
         </div>
         <div className="homePage-secondPart p-5">
-          <p className="fs-sm-5">
-            <span className="fs-1">Welcome</span> to Harry potter world! <br />
+          <p className="fs-5">
+            <span className="fs-sm-1">Welcome</span> to Harry potter world!{" "}
+            <br />
             If you know this world you're my friend and nice to meet you, you
             can have fun and find a lot of funny stuff here. <br />
             Let me a little explane my site for you: <br />

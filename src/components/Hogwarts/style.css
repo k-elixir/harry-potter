@@ -2,3 +2,13 @@
   background: center no-repeat url("./images/title.jpg");
   background-size: cover;
 }
+.hogwarts {
+  background-color: #2e4763;
+}
+.hogwarts img,
+.hogwarts iframe {
+  border-radius: 10px;
+}
+#diagon img {
+  width: 500px;
+}

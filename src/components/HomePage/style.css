@@ -6,12 +6,6 @@
 .homePage-fourthPart img {
   opacity: 0.85;
 }
-@media (min-width: 1200px) {
-  .homePage-fourthPart h4 {
-    margin-left: -10px;
-  }
-}
-
 .title {
   font-size: 100px;
 }
@@ -39,7 +33,6 @@ div hr {
   border-top: 3px solid;
   opacity: 0.75;
 }
-
 .homePage-thirdPart img {
   width: 300px;
   margin-bottom: 20px;

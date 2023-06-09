@@ -2,13 +2,20 @@ import React from "react";
 import "./style.css";
 import NavBar from "../NavBar";
 import Footer from "../Footer";
+import ollivanders from "./images/ollivanders.jpg";
+import quidditch from "./images/quidditch.jpg";
+import stag from "./images/stag.jpg";
+import doe from "./images/doe.webp";
+import phoenix from "./images/phoenix.jpg";
+import wolf from "./images/Wolf.webp";
+import cat from "./images/cat.jpeg";
 
 export default function Hogwarts() {
   return (
-    <div id="up">
+    <div className="hogwarts" id="up">
       <div className="hogwarts-page pb-5">
         <NavBar />
-        <div className="p-5 text-center">
+        <div className="p-5 mb-5 text-center">
           <div className="container pt-5 mt-4 pb-5 mb-5">
             <hr />
             <h1 className="title p-md-5">Hogwarts</h1>
@@ -19,20 +26,84 @@ export default function Hogwarts() {
       </div>
       <main className="container mt-5">
         <div id="diagon">
-          <h2 className="h1">
-            <span>D</span>iagon alley
-          </h2>
-          <div className="fs-5">
-            Diagon Alley is a wizarding shopping area located in London,
-            England, which is completely hidden from the Muggle world. All items
-            on the Hogwarts supply list could be bought at Diagon Alley. The
-            alley was essentially the centre of wizarding London and was very
-            large in area.
-            <br />
-            First you need a wand, Mr Olivanders will help you
+          <div className="row">
+            <div className="col-8 fs-5">
+              <h2 className="h1">
+                <span>D</span>iagon alley
+              </h2>
+              Diagon Alley is a wizarding shopping area located in London,
+              England, which is completely hidden from the Muggle world. All
+              items on the Hogwarts supply list could be bought at Diagon Alley.
+              The alley was essentially the centre of wizarding London and was
+              very large in area.
+              <br />
+              Access to Diagon Alley was behind the Leaky Cauldron in a small,
+              walled courtyard with a dustbin. Diagon Alley could be accessed by
+              tapping the correct brick in the wall behind the Leaky Cauldron
+              (from the rubbish bin, three up and two across). The wall went in
+              a small hole first but formed a large archway. It could also be
+              accessed by Floo Powder and Apparition. There might have been
+              other entrances as well.
+              <br />
+              <br />
+              First you need a wand, Mr Ollivanders will help you. But remember
+              your wand has chosen you!
+              <li>
+                If you have money and love to fly, I suggest you buy Nimbus,
+                maybe Nimbus 2023!
+              </li>
+            </div>
+            <div className="col ">
+              <div
+                id="carouselExampleAutoplaying"
+                class="carousel slide image-col"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src={ollivanders}
+                      class="d-block w-100"
+                      alt="ollinvanders shop"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src={quidditch}
+                      class="d-block w-100"
+                      alt="quidditch shop"
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleAutoplaying"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleAutoplaying"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
           </div>
         </div>
-        <div className="mb-5 mt-5" id="patronus">
+        <div className="mt-5" id="patronus">
           <h2 className="h1">
             <span>E</span>xpecto Patronum!
           </h2>
@@ -59,12 +130,65 @@ export default function Hogwarts() {
             witch or wizard who conjures it, and it’s possible, in some cases,
             for a Patronus to change.
           </div>
+          <br />
+          <div className="row">
+            <div className="col">
+              <img src={stag} alt="stag patronus" width={200} height={200} />
+              <ul className="fs-4">
+                <li>Harry Potter</li>
+                <li>James Potter</li>
+              </ul>
+            </div>
+            <div className="col">
+              <img src={doe} alt="doe patronus" width={200} height={200} />
+              <ul className="fs-4">
+                <li>Lily Potter</li>
+                <li>Severus Snape</li>
+              </ul>
+            </div>
+            <div className="col">
+              <img
+                src={phoenix}
+                alt="phoenx patronus"
+                width={200}
+                height={200}
+              />
+              <ul className="fs-4">
+                <li>Albus Dumbledore</li>
+              </ul>
+            </div>
+            <div className="col">
+              <img src={wolf} alt="wolf patronus" width={200} height={200} />
+              <ul className="fs-4">
+                <li>Remus Lupin</li>
+                <li>Nymphadora Tonks</li>
+              </ul>
+            </div>
+            <div className="col">
+              <img src={cat} alt="cat patronus" width={200} height={200} />
+              <ul className="fs-4">
+                <li>Minerva McGonagall</li>
+                <li>Dolores Umbridge</li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div id="death">
+        <div className="mt-5" id="death">
           <h2 className="h1">
-            <span>D</span>ethly hollows
+            <span>D</span>eathly Hallows
           </h2>
           <div className="fs-5">
+            <iframe
+              width="560"
+              align="right"
+              height="315"
+              src="https://www.youtube.com/embed/clvreim9_PE"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+              className="ms-3"
+            ></iframe>
             In The Tales of Beedle the Bard, the author presented his own
             version of the origin of the Hallows. Hundreds of years ago, the
             three Peverell brothers were travelling at twilight, and reached a
@@ -125,6 +249,26 @@ export default function Hogwarts() {
             the ancient story refers to three objects, or Hallows, which, if
             united, will make the possessor Master of Death.
           </div>
+        </div>
+        <div className="mt-5">
+          <h2 className="h1">
+            <span>S</span>
+            ome rules about magic it’s important to bear in mind.
+          </h2>
+          <ul className="fs-5">
+            <li>The International Statute of Secrecy must be abided</li>
+            <li>
+              You can’t use magic outside of Hogwarts until you come of age
+            </li>
+            <li>You can’t magically create food</li>
+            <li>Playing with life and death will warrant dark consequences</li>
+            <li>If you become an Animagus, you have to get a license</li>
+            <li>If you’re American, you would’ve needed a wand permit</li>
+            <li>The Unforgivable Curses are illegal, obviously</li>
+            <li>
+              And looking after certain fantastic beasts is also... frowned upon
+            </li>
+          </ul>
         </div>
       </main>
       <Footer />
