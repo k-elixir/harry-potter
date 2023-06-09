@@ -2,26 +2,26 @@
 .contact-page textarea {
   color: white;
   background-color: transparent;
-  border: 1px solid #151827;
+  border: 1px solid #11161d;
   width: 600px;
 }
 .contact-page input::placeholder,
 .contact-page textarea::placeholder {
-  color: #151827;
+  color: #11161d;
 }
 .contact-page input:focus,
 .contact-page textarea:focus {
-  background-color: #151827;
+  background-color: #11161d;
   color: white;
   box-shadow: none;
   border: none;
 }
 .contact-page button {
-  background-color: #151827;
+  background-color: #11161d;
   color: silver;
 }
 .contact-page button:hover {
-  border: 1px solid #151827;
+  border: 1px solid #11161d;
   color: white;
 }
 .contact-page .forms {
@@ -38,8 +38,8 @@ div .title-contact {
   font-size: 50px;
 }
 .icones-col {
-  background-color: #151827;
-  box-shadow: 10px 10px 10px 5px #131420;
+  background-color: #11161d;
+  box-shadow: 10px 10px 10px 5px black;
   position: absolute;
   padding: 60px;
   right: 160px;
@@ -81,7 +81,7 @@ div .icon-col-2 {
     padding-top: 40px;
   }
   div .icon-col-2 a {
-    color: #151827;
+    color: #11161d;
   }
   .contact-page input,
   .contact-page textarea {

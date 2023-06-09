@@ -2,8 +2,9 @@ import React from "react";
 import "./style.css";
 import NavBar from "../NavBar";
 import Footer from "../Footer";
-import death from "./images/deathly.jpeg";
-import patronus from "./images/patronus.webp";
+import diagon from "./images/diagon-alley.jpg";
+import death from "./images/deathly-hallows.jpg";
+import patronus from "./images/patronus.jpg";
 import train from "./images/train.jpg";
 import gryffindor from "./images/gryffindor.jpg";
 import ravenclaw from "./images/ravenclaw.jpg";
@@ -28,7 +29,7 @@ export default function HomePage() {
           </div>
         </div>
         <div className="homePage-secondPart p-5">
-          <p className="fs-5">
+          <p className="fs-sm-5">
             <span className="fs-1">Welcome</span> to Harry potter world! <br />
             If you know this world you're my friend and nice to meet you, you
             can have fun and find a lot of funny stuff here. <br />
@@ -47,49 +48,56 @@ export default function HomePage() {
             </Link>
           </div>
         </div>
-        <div className="homePage-fourthPart p-5 mt-5 mb-5 container">
+        <div className=" container homePage-fourthPart p-3 pt-5 pb-5 p-sm-5 p-xl-4 mt-5 mb-5 img-fluid">
           <div className="row">
-            <div className="col">
+            <div className="col-lg">
               <div className="row">
                 <div className="col text-center">
-                  <img src={patronus} width={200} alt="patronus" />
+                  <Link to="/Hogwarts#patronus">
+                    <img src={patronus} width={200} alt="patronus" />
+                  </Link>
                 </div>
-                <div className="col mt-3">
-                  <h5>Expecto Patronum!</h5>
-                  <br />
-                  The Patronus is a form of advanced magic which even the most
-                  qualified wizards can struggle with.
+                <div className="col-sm mt-3 pe-4 ps-4 p-xl-0">
+                  <h4>Expecto Patronum!</h4>
+                  <p>
+                    The Patronus is a form of advanced magic which even the most
+                    qualified wizards can struggle with.
+                  </p>
                 </div>
               </div>
             </div>
-            <div className="col">
-              <div className="row">
+            <div className="col-lg">
+              <div className="row pt-4 pt-lg-0">
                 <div className="col text-center">
-                  <img src={death} width={200} alt="patronus" />
+                  <Link to="/Hogwarts#death">
+                    <img src={death} width={200} alt="patronus" />
+                  </Link>
                 </div>
-                <div className="col mt-3">
-                  <h5>Deathly Hallows</h5>
-                  <br />
-                  The three legendary objects, (the cloak, the wand and the
-                  stone) together made up the Deathly Hallows.
+                <div className="col-sm mt-3 pe-4 ps-4 p-xl-0">
+                  <h4>Deathly Hallows</h4>
+                  <p>
+                    The three legendary objects, (the cloak, the wand and the
+                    stone) together made up the Deathly Hallows.
+                  </p>
                 </div>
               </div>
             </div>
-            <div className="col">
-              <div className="row">
-                <div className="col text-center">
-                  <img src={death} width={200} alt="patronus" />
+            <div className="col-lg">
+              <div className="row pt-4 pt-lg-0">
+                <div className="col-sm text-center">
+                  <Link id="/Hogwarts#diagon">
+                    <img src={diagon} width={200} alt="patronus" />
+                  </Link>
                 </div>
-                <div className="col">
-                  <h5>Expecto Patronum!</h5>
-                  <br />
-                  What is a Patronus?
+                <div className="col mt-3 pe-4 ps-4 p-xl-0">
+                  <h4>Diagon Alley</h4>
+                  <p>Befor going to Hogwarts, we need to do some shopping!</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="homePage-thirdPart text-center p-5">
+        <div className="homePage-thirdPart text-center p-sm-5">
           <div className="row justify-content-center">
             <div className="col-auto">
               <Link to="/Gryffindor">

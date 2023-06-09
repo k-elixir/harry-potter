@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "./images/imgbin_magic-in-harry-potter-logo-desktop-png.png";
+import logo from "./images/favicon.png";
 import { Link } from "react-router-dom";
 
 export default function NavBar() {

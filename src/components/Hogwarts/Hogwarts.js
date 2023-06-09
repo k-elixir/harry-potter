@@ -6,7 +6,7 @@ import Footer from "../Footer";
 export default function Hogwarts() {
   return (
     <div id="up">
-      <div className="hogwarts-page">
+      <div className="hogwarts-page pb-5">
         <NavBar />
         <div className="p-5 text-center">
           <div className="container pt-5 mt-4 pb-5 mb-5">
@@ -17,12 +17,25 @@ export default function Hogwarts() {
           </div>
         </div>
       </div>
-      <main className="container">
-        <div className="mb-5 mt-5">
+      <main className="container mt-5">
+        <div id="diagon">
+          <h2 className="h1">
+            <span>D</span>iagon alley
+          </h2>
+          <div className="fs-5">
+            Diagon Alley is a wizarding shopping area located in London,
+            England, which is completely hidden from the Muggle world. All items
+            on the Hogwarts supply list could be bought at Diagon Alley. The
+            alley was essentially the centre of wizarding London and was very
+            large in area.
+            <br />
+            First you need a wand, Mr Olivanders will help you
+          </div>
+        </div>
+        <div className="mb-5 mt-5" id="patronus">
           <h2 className="h1">
             <span>E</span>xpecto Patronum!
           </h2>
-
           <div className="fs-5">
             The Patronus is a form of advanced magic which even the most
             qualified wizards can struggle with. Harry Potter was one of the
@@ -47,7 +60,7 @@ export default function Hogwarts() {
             for a Patronus to change.
           </div>
         </div>
-        <div>
+        <div id="death">
           <h2 className="h1">
             <span>D</span>ethly hollows
           </h2>

@@ -1,7 +1,15 @@
 .homePage-FirstPart {
   color: white;
-  background: center no-repeat url("./images/pxfuel\ \(1\).jpg");
+  background: center no-repeat url("./images/home-page-background.jpg");
   background-size: cover;
+}
+.homePage-fourthPart img {
+  opacity: 0.85;
+}
+@media (min-width: 1200px) {
+  .homePage-fourthPart h4 {
+    margin-left: -10px;
+  }
 }
 
 .title {
@@ -38,5 +46,5 @@ div hr {
 }
 .homePage-fourthPart {
   background-color: silver;
-  color: #151827;
+  color: #11161d;
 }
