@@ -9,7 +9,6 @@ import doe from "./images/doe.webp";
 import phoenix from "./images/phoenix.jpg";
 import wolf from "./images/Wolf.webp";
 import cat from "./images/cat.jpeg";
-
 export default function Hogwarts() {
   return (
     <div className="hogwarts" id="up">
@@ -131,22 +130,22 @@ export default function Hogwarts() {
             </p>
           </div>
           <br />
-          <div className="row img-fluid">
-            <div className="col">
+          <div className="row text-center">
+            <div className="col patro-img">
               <img src={stag} alt="stag patronus" width={230} height={230} />
               <ul>
                 <li>Harry Potter</li>
                 <li>James Potter</li>
               </ul>
             </div>
-            <div className="col">
+            <div className="col patro-img">
               <img src={doe} alt="doe patronus" width={230} height={230} />
               <ul>
                 <li>Lily Potter</li>
                 <li>Severus Snape</li>
               </ul>
             </div>
-            <div className="col">
+            <div className="col patro-img">
               <img
                 src={phoenix}
                 alt="phoenix patronus"
@@ -157,14 +156,14 @@ export default function Hogwarts() {
                 <li>Albus Dumbledore</li>
               </ul>
             </div>
-            <div className="col">
+            <div className="col patro-img">
               <img src={wolf} alt="wolf patronus" width={230} height={230} />
               <ul>
                 <li>Remus Lupin</li>
                 <li>Nymphadora Tonks</li>
               </ul>
             </div>
-            <div className="col">
+            <div className="col patro-img">
               <img src={cat} alt="cat patronus" width={230} height={230} />
               <ul>
                 <li>Minerva McGonagall</li>
@@ -179,15 +178,14 @@ export default function Hogwarts() {
           </h2>
           <div className="fs-5">
             <iframe
-              width="560"
-              align="right"
-              height="315"
+              width="550"
+              height="310"
               src="https://www.youtube.com/embed/clvreim9_PE"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
-              className="ms-3"
+              className="d-none d-md-block ms-3 float-end"
             ></iframe>
             <p>
               In The Tales of Beedle the Bard, the author presented his own

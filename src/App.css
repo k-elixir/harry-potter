@@ -10,8 +10,11 @@
   font-family: var(--default-font);
   text-align: justify;
 }
+img {
+  border-radius: 10px;
+}
 div {
-  cursor: url("./components/images/output-onlinegiftools.gif");
+  cursor: url("./components/images/output-onlinegiftools.gif"), auto;
 }
 span {
   color: silver;

@@ -4,4 +4,9 @@ div .gryffindor {
 }
 div .member {
   background-color: #987432;
+  border-radius: 10px;
+}
+.gryffindor-slide img {
+  width: 400px !important;
+  height: 550px;
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "./images/favicon.png";
-import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
 
@@ -10,14 +10,14 @@ export default function Footer() {
       <div className="footer p-5">
         <div className="row">
           <div className="col-5 text-start">
-            <Link to="/HomePage">
+            <a href="/">
               <img src={logo} alt="Logo" width={100} />
-            </Link>
+            </a>
           </div>
           <div className="col text-start">
-            <Link to="/About">About Me</Link>
+            <HashLink to="/About">About Me</HashLink>
             <br />
-            <Link to="/Contact">Contact Me</Link>
+            <HashLink to="/Contact">Contact Me</HashLink>
             <br />
             <br />
             <div className="col">

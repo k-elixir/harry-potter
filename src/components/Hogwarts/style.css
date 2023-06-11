@@ -5,17 +5,20 @@
 .hogwarts {
   background-color: #2e4763;
 }
-.hogwarts img {
-  border-radius: 10px;
-}
-#patronus li {
+#patronus ul {
   font-size: 1.3rem;
 }
-#patronus img {
-  justify-content: center;
+#patronus li {
+  margin: 0 auto;
+  text-align: justify;
 }
 @media (max-width: 700px) {
   #diagon .diagon-img {
     max-width: 300px;
+  }
+}
+@media (max-width: 991) {
+  div .death-video {
+    width: 400px !important;
   }
 }

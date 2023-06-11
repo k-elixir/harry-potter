@@ -3,7 +3,7 @@ import "./style.css";
 import NavBar from "../NavBar";
 import Footer from "../Footer";
 import picture from "./images/picture.png";
-import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 export default function About() {
   return (
@@ -31,9 +31,9 @@ export default function About() {
               share with me I want to know what is your group and patronus.
               <br />I hope you enjoy it.
             </p>
-            <Link className="btn btn-warning mt-2 " to="/Contact">
+            <HashLink className="btn btn-warning mt-2 " to="/Contact#up">
               Contact me
-            </Link>
+            </HashLink>
             <div className="d-none d-lg-block">
               <hr />
             </div>
