@@ -2,7 +2,16 @@ import React from "react";
 import "./style.css";
 import NavBar from "../NavBar";
 import Footer from "../Footer";
-import pic from "./images/34aa20211f9d2596771a0421fe8c0944.jpg";
+import hall from "./images/hall.jpg";
+import salazar from "./images/salazar.webp";
+import slytherin from "./images/slytherin.jpg";
+import first from "./images/1.jpg";
+import second from "./images/2.jpg";
+import tom from "./images/tom.jpg";
+import snape from "./images/snape.jpg";
+import malfoy from "./images/malfoy.jpg";
+import bellatrix from "./images/bellatrix.jpg";
+import banner from "./images/Slytherin house banner.png";
 
 export default function Slytherin() {
   return (
@@ -12,7 +21,17 @@ export default function Slytherin() {
         <div className="pt-5 pb-5 text-center">
           <div className="pt-5 mt-4 pb-5 mb-5">
             <hr />
-            <h1 className="title p-md-5">Slytherin</h1>
+            <div className="row">
+              <div className="col">
+                <img src={banner} alt="Slytherin banner" />
+              </div>
+              <div className="col">
+                <h1 className="title p-md-5">Slytherin</h1>
+              </div>
+              <div className="col">
+                <img src={banner} alt="Slytherin banner" />
+              </div>
+            </div>
             <p>
               "You'll make your real friends, Those cunning folk use any means,
               To achieve their ends."
@@ -20,15 +39,66 @@ export default function Slytherin() {
             <hr />
           </div>
         </div>
-        <div className="row">
-          <div className="col-8 fs-5">
-            Slytherin is one of the four houses of Hogwarts School of Witchcraft
-            and Wizardry in J.K. Rowling's Harry Potter series. Each house has a
-            set of traits and characteristics associated with it, and those in
-            Slytherin are known for being ambitious, cunning, and resourceful.
-            Slytherins are also sometimes regarded as being evil thanks to the
-            fact that many of the most sinister witches and wizards have been
-            associated with this house.
+        <div>
+          <div
+            id="carouselExampleRide"
+            class="carousel slide float-end ms-3 d-none d-sm-block slytherin-slide"
+            data-bs-ride="true"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src={hall} class="d-block w-100" alt="slytherin hall" />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src={salazar}
+                  class="d-block w-100"
+                  alt="Salazar Slytherin"
+                />
+              </div>
+              <div class="carousel-item">
+                <img src={slytherin} class="d-block w-100" alt="Slytherin" />
+              </div>
+              <div class="carousel-item">
+                <img src={first} class="d-block w-100" alt="Slytherin" />
+              </div>
+              <div class="carousel-item">
+                <img src={second} class="d-block w-100" alt="Slytherin" />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleRide"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleRide"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div className="fs-5">
+            <span className="h2">Slytherin</span> is one of the four houses of
+            Hogwarts School of Witchcraft and Wizardry in J.K. Rowling's Harry
+            Potter series. Each house has a set of traits and characteristics
+            associated with it, and those in Slytherin are known for being
+            ambitious, cunning, and resourceful. Slytherins are also sometimes
+            regarded as being evil thanks to the fact that many of the most
+            sinister witches and wizards have been associated with this house.
             <br />
             This house crest boasts Slytherin's signature colours of green and
             silver. The two colours are evocative of the water element. Of
@@ -58,97 +128,52 @@ export default function Slytherin() {
             impression. In life, he was born into nobility in the late tenth
             century, and fell in love with Rowena Ravenclaw's daughter, Helena
           </div>
-          <div
-            id="carouselExampleCaptions"
-            class="carousel slide col"
-            data-bs-ride="carousel"
-          >
-            <div class="carousel-indicators">
-              <button
-                type="button"
-                data-bs-target="#carouselExampleCaptions"
-                data-bs-slide-to="0"
-                class="active"
-                aria-current="true"
-                aria-label="Slide 1"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleCaptions"
-                data-bs-slide-to="1"
-                aria-label="Slide 2"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleCaptions"
-                data-bs-slide-to="2"
-                aria-label="Slide 3"
-              ></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src={pic} class="d-block " width={400} alt="pic" />
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>First slide label</h5>
-                  <p>
-                    Some representative placeholder content for the first slide.
-                  </p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src={pic} class="d-block " width={400} alt="pic" />
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Second slide label</h5>
-                  <p>
-                    Some representative placeholder content for the second
-                    slide.
-                  </p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src={pic} class="d-block " width={400} alt="pic" />
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Third slide label</h5>
-                  <p>
-                    Some representative placeholder content for the third slide.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselExampleCaptions"
-              data-bs-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselExampleCaptions"
-              data-bs-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-        </div>
-        <div className="member p-5 mt-5 mb-5 d-flex justify-content-between">
-          <img src={pic} alt="gryffindor" height={400} width={300} />
-
-          <img src={pic} alt="gryffindor" height={400} width={300} />
-          <img src={pic} alt="gryffindor" height={400} width={300} />
         </div>
         <div>
-          <h3 className="h1">House Cup</h3>
+          <h3 className="h1 mt-5">
+            <span>S</span>ome members of Gryffindor.
+          </h3>
+          <div className="row text-center member p-5 mb-5">
+            <div className="col">
+              <img
+                src={tom}
+                alt="Tom Marvolo Riddle"
+                height={330}
+                width={200}
+              />
+              <p>
+                <span>You-Know-Who</span>
+              </p>
+            </div>
+            <div className="col">
+              <img src={snape} alt="Severus Snape" height={330} width={200} />
+              <p>
+                <span>Severus Snape</span>
+              </p>
+            </div>
+            <div className="col">
+              <img src={malfoy} alt="Malfoy Family" height={330} width={200} />
+              <p>
+                <span>Malfoy Family</span>
+              </p>
+            </div>
+            <div className="col">
+              <img
+                src={bellatrix}
+                alt="Bellatrix Lestrange"
+                height={330}
+                width={200}
+              />
+              <p>
+                <span>Bellatrix Lestrange</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h3 className="h1">
+            <span>H</span>ouse Cup
+          </h3>
           <ul className="fs-5">
             <li>
               Slytherin won the first house cup with 72,734,274 house points.
@@ -176,9 +201,11 @@ export default function Slytherin() {
             </li>
           </ul>
         </div>
-        <div className="fs-5">
-          If you are in this group, you should be proud of it, not because of
-          Malfoy or Tom Riddle but because of Merlin.
+        <div className="fs-4">
+          <p>
+            <span>I</span>f you are in this group, you should be proud of it,
+            not because of Malfoy or Tom Riddle but because of Merlin.
+          </p>
         </div>
       </div>
       <Footer />

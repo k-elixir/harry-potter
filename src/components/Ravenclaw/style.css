@@ -4,4 +4,15 @@ div .ravenclaw {
 
 .ravenclaw .member {
   background-color: #a7907a;
+  border-radius: 10px;
+}
+.ravenclaw-slide img {
+  width: 400px !important;
+  height: 550px;
+}
+@media (max-width: 767px) {
+  .ravenclaw-slide img {
+    max-width: 300px !important;
+    height: 450px !important;
+  }
 }

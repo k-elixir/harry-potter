@@ -10,3 +10,12 @@ div .member {
   width: 400px !important;
   height: 550px;
 }
+.member span {
+  font-size: 23px;
+}
+@media (max-width: 767px) {
+  .gryffindor .gryffindor-slide img {
+    max-width: 300px !important;
+    height: 450px !important;
+  }
+}

@@ -8,3 +8,13 @@ div .carousel {
 .huffelpuff .member {
   background-color: black;
 }
+@media (max-width: 767px) {
+  .huffelpuff .huffelpuff-slide img {
+    max-width: 300px !important;
+    height: 450px !important;
+  }
+}
+.huffelpuff-slide img {
+  width: 400px !important;
+  height: 550px;
+}

@@ -8,6 +8,12 @@ import ghost from "./images/2.jpg";
 import minerva from "./images/minerva.jpeg";
 import godric from "./images/godric.jpeg";
 
+import hermione from "./images/hermione.jpg";
+import sirius from "./images/sirius.jpg";
+import oliver from "./images/oliver.jpg";
+import weasleys from "./images/Weasleys.jpg";
+import hagrid from "./images/1533f41cc061550e29dc1e4cae4c1f65.jpg";
+
 export default function Gryffindor() {
   return (
     <div className="gryffindor" id="up">
@@ -28,14 +34,14 @@ export default function Gryffindor() {
           <div>
             <div
               id="carouselExampleRide"
-              class="carousel slide float-end ms-3 gryffindor-slide"
+              class="carousel slide float-end ms-3 d-none d-sm-block gryffindor-slide"
               data-bs-ride="true"
             >
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img src={hall} class="d-block w-100" alt="Gryffindor hall" />
                 </div>
-                <div class="carousel-item active">
+                <div class="carousel-item">
                   <img
                     src={hall2}
                     class="d-block w-100"
@@ -126,14 +132,52 @@ export default function Gryffindor() {
             </p>
           </div>
 
-          <div className="member p-5 mt-5 mb-5 d-flex justify-content-between">
-            <img src={hall} alt="gryffindor" height={400} width={300} />
-
-            <img src={hall} alt="gryffindor" height={400} width={300} />
-            <img src={hall} alt="gryffindor" height={400} width={300} />
+          <div>
+            <h3 className="h1 mt-5">
+              <span>S</span>ome members of Gryffindor.
+            </h3>
+            <div className="row text-center member p-5 mb-5">
+              <div className="col">
+                <img src={hermione} alt="Hermione" height={330} width={200} />
+                <p>
+                  <span>Hermione Granger</span>
+                </p>
+              </div>
+              <div className="col">
+                <img src={hagrid} alt="Hagrid" height={330} width={200} />
+                <p>
+                  <span>Rubeus Hagrid</span>
+                </p>
+              </div>
+              <div className="col">
+                <img src={oliver} alt="Oliver wood" height={330} width={200} />
+                <p>
+                  <span>Oliver Wood</span>
+                </p>
+              </div>
+              <div className="col">
+                <img src={sirius} alt="Sirius black" height={330} width={200} />
+                <p>
+                  <span>Sirius Black</span>
+                </p>
+              </div>
+              <div className="col">
+                <img
+                  src={weasleys}
+                  alt="Weasley family"
+                  height={330}
+                  width={200}
+                />
+                <p>
+                  <span>Weasley Family</span>
+                </p>
+              </div>
+            </div>
           </div>
           <div>
-            <h3 className="h1">House Cup</h3>
+            <h3 className="h1">
+              <span>H</span>ouse Cup
+            </h3>
             <ul className="fs-5">
               <li>
                 Gryffindor came second for the first house cup with 74,069,919
@@ -162,10 +206,10 @@ export default function Gryffindor() {
           </div>
           <div className="fs-4">
             <p>
-              -You probably know that the things I have told you so far. But did
-              you know the sword of Gryffindor was made a thousand years ago by
-              goblins, or that Head of House Minerva McGonagall's hobbies
-              include correcting articles in Transfiguration Today and
+              <span>Y</span>ou probably know that the things I have told you so
+              far. But did you know the sword of Gryffindor was made a thousand
+              years ago by goblins, or that Head of House Minerva McGonagall's
+              hobbies include correcting articles in Transfiguration Today and
               supporting the Montrose Magpies?
             </p>
           </div>
