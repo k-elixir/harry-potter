@@ -131,21 +131,21 @@ export default function Hogwarts() {
           </div>
           <br />
           <div className="row text-center">
-            <div className="col patro-img">
+            <div className="col">
               <img src={stag} alt="stag patronus" width={230} height={230} />
               <ul>
                 <li>Harry Potter</li>
                 <li>James Potter</li>
               </ul>
             </div>
-            <div className="col patro-img">
+            <div className="col">
               <img src={doe} alt="doe patronus" width={230} height={230} />
               <ul>
                 <li>Lily Potter</li>
                 <li>Severus Snape</li>
               </ul>
             </div>
-            <div className="col patro-img">
+            <div className="col">
               <img
                 src={phoenix}
                 alt="phoenix patronus"
@@ -156,14 +156,14 @@ export default function Hogwarts() {
                 <li>Albus Dumbledore</li>
               </ul>
             </div>
-            <div className="col patro-img">
+            <div className="col">
               <img src={wolf} alt="wolf patronus" width={230} height={230} />
               <ul>
                 <li>Remus Lupin</li>
                 <li>Nymphadora Tonks</li>
               </ul>
             </div>
-            <div className="col patro-img">
+            <div className="col">
               <img src={cat} alt="cat patronus" width={230} height={230} />
               <ul>
                 <li>Minerva McGonagall</li>
