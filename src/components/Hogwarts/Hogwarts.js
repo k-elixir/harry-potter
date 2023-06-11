@@ -24,7 +24,7 @@ export default function Hogwarts() {
           </div>
         </div>
       </div>
-      <main className="container mt-5">
+      <main className="container-md mt-5">
         <div id="diagon" className="pb-4">
           <h2 className="h1">
             <span>D</span>iagon alley
@@ -32,7 +32,7 @@ export default function Hogwarts() {
           <div className="fs-5 pb-xl-5">
             <div
               id="carouselExampleAutoplaying"
-              class="carousel slide float-end ms-3 d-none d-sm-block"
+              class="carousel slide float-end ms-3 d-none d-sm-block diagon-img"
               data-bs-ride="carousel"
             >
               <div class="carousel-inner">
@@ -131,22 +131,22 @@ export default function Hogwarts() {
             </p>
           </div>
           <br />
-          <div className="d-xl-flex justify-content-xl-between">
-            <div className="">
+          <div className="row img-fluid">
+            <div className="col">
               <img src={stag} alt="stag patronus" width={230} height={230} />
               <ul>
                 <li>Harry Potter</li>
                 <li>James Potter</li>
               </ul>
             </div>
-            <div className="">
+            <div className="col">
               <img src={doe} alt="doe patronus" width={230} height={230} />
               <ul>
                 <li>Lily Potter</li>
                 <li>Severus Snape</li>
               </ul>
             </div>
-            <div className="">
+            <div className="col">
               <img
                 src={phoenix}
                 alt="phoenix patronus"
@@ -157,14 +157,14 @@ export default function Hogwarts() {
                 <li>Albus Dumbledore</li>
               </ul>
             </div>
-            <div className="">
+            <div className="col">
               <img src={wolf} alt="wolf patronus" width={230} height={230} />
               <ul>
                 <li>Remus Lupin</li>
                 <li>Nymphadora Tonks</li>
               </ul>
             </div>
-            <div className="">
+            <div className="col">
               <img src={cat} alt="cat patronus" width={230} height={230} />
               <ul>
                 <li>Minerva McGonagall</li>

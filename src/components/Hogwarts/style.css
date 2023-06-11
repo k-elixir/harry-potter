@@ -8,9 +8,14 @@
 .hogwarts img {
   border-radius: 10px;
 }
-#diagon img {
-  width: 500px;
-}
 #patronus li {
   font-size: 1.3rem;
+}
+#patronus img {
+  justify-content: center;
+}
+@media (max-width: 700px) {
+  #diagon .diagon-img {
+    max-width: 300px;
+  }
 }
