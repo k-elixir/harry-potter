@@ -1,20 +1,10 @@
-div .slytherin {
+div .Slytherin {
   background-color: #0b1e1b;
 }
-.slytherin .member {
+.Slytherin .member {
   background-color: silver;
   border-radius: 10px;
 }
-@media (max-width: 767px) {
-  .slytherin .slytherin-slide img {
-    max-width: 300px !important;
-    height: 450px !important;
-  }
-}
-.slytherin-slide img {
-  width: 400px !important;
-  height: 550px;
-}
-.slytherin .member span {
+.Slytherin .member span {
   color: #0b1e1b;
 }

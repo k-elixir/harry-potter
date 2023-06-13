@@ -1,0 +1,32 @@
+div .member {
+  border-radius: 10px;
+}
+div .carousel {
+  max-width: 400px;
+}
+.house-slide img {
+  width: 400px !important;
+  height: 550px;
+}
+.member span {
+  font-size: 23px;
+}
+.flag img {
+  width: 250px;
+}
+@media (max-width: 767px) {
+  .house-slide img {
+    max-width: 300px !important;
+    height: 450px !important;
+  }
+}
+@media (min-width: 1400px) {
+  .flag img {
+    width: 360px;
+  }
+}
+@media (min-width: 1200px) {
+  .flag img {
+    width: 300px;
+  }
+}
