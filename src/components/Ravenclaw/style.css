@@ -10,3 +10,6 @@ div .Ravenclaw {
 .Ravenclaw .member span {
   color: #173256;
 }
+div .Ravenclaw .house-slide {
+  margin-top: 10px;
+}

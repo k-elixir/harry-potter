@@ -8,7 +8,7 @@ export default function House(props) {
     <div className={props.houseName} id="up">
       <NavBar />
       <div className="container ">
-        <div className="pt-5 pb-5">
+        <div className="pt-5 pb-5 mb-5 mt-1">
           <div className="pt-5 mt-4 pb-5 mb-5 text-center">
             <div className="row align-items-center">
               <div className="col d-none d-lg-block flag">{props.flag}</div>

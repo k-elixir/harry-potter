@@ -9,6 +9,7 @@ import doe from "./images/doe.webp";
 import phoenix from "./images/phoenix.jpg";
 import wolf from "./images/Wolf.webp";
 import cat from "./images/cat.jpeg";
+import founders from "./images/Founders_Hero.jpg";
 export default function Hogwarts() {
   return (
     <div className="hogwarts" id="up">
@@ -24,6 +25,25 @@ export default function Hogwarts() {
         </div>
       </div>
       <main className="container-md mt-5">
+        <div className="hogwarts-founders">
+          <p className="fs-5">
+            <span>Hogwarts</span> School of Witchcraft and Wizardry is a
+            boarding school of magic for students aged eleven to seventeen.
+            <br />
+            Founded around the 9th century and 10th century by Godric
+            Gryffindor, Rowena Ravenclaw, Helga Hufflepuff and Salazar
+            Slytherin, Hogwarts was established in the Highlands of Scotland to
+            educate young wizards and witches as well as to keep students safe
+            from Muggle persecution. Theory has it that Rowena Ravenclaw came up
+            with the name of Hogwarts after dreaming of a warty hog that led her
+            to a cliff by a lake. Since then, Hogwarts educated most wizarding
+            children with residence in Great Britain and Ireland, keeping its
+            location hidden from other wizarding schools and Muggles.
+          </p>
+          <div className="text-center p-4">
+            <img src={founders} alt="Hogwarts founders" />
+          </div>
+        </div>
         <div id="diagon" className="pb-4">
           <h2 className="h1">
             <span>D</span>iagon alley
@@ -132,14 +152,14 @@ export default function Hogwarts() {
           <br />
           <div className="row text-center">
             <div className="col">
-              <img src={stag} alt="stag patronus" width={230} height={230} />
+              <img src={stag} alt="Stag patronus" width={230} height={230} />
               <ul>
                 <li>Harry Potter</li>
                 <li>James Potter</li>
               </ul>
             </div>
             <div className="col">
-              <img src={doe} alt="doe patronus" width={230} height={230} />
+              <img src={doe} alt="Doe patronus" width={230} height={230} />
               <ul>
                 <li>Lily Potter</li>
                 <li>Severus Snape</li>
@@ -148,7 +168,7 @@ export default function Hogwarts() {
             <div className="col">
               <img
                 src={phoenix}
-                alt="phoenix patronus"
+                alt="Phoenix patronus"
                 width={230}
                 height={230}
               />
@@ -157,14 +177,14 @@ export default function Hogwarts() {
               </ul>
             </div>
             <div className="col">
-              <img src={wolf} alt="wolf patronus" width={230} height={230} />
+              <img src={wolf} alt="Wolf patronus" width={230} height={230} />
               <ul>
                 <li>Remus Lupin</li>
                 <li>Nymphadora Tonks</li>
               </ul>
             </div>
             <div className="col">
-              <img src={cat} alt="cat patronus" width={230} height={230} />
+              <img src={cat} alt="Cat patronus" width={230} height={230} />
               <ul>
                 <li>Minerva McGonagall</li>
                 <li>Dolores Umbridge</li>
@@ -177,16 +197,18 @@ export default function Hogwarts() {
             <span>D</span>eathly Hallows
           </h2>
           <div className="fs-5">
-            <iframe
-              width="550"
-              height="310"
-              src="https://www.youtube.com/embed/clvreim9_PE"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-              className="d-none d-md-block ms-3 float-end"
-            ></iframe>
+            <div className="text-center">
+              <iframe
+                width="550"
+                height="310"
+                src="https://www.youtube.com/embed/clvreim9_PE"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+                className=" ms-3 float-sm-end"
+              ></iframe>
+            </div>
             <p>
               In The Tales of Beedle the Bard, the author presented his own
               version of the origin of the Hallows. Hundreds of years ago, the

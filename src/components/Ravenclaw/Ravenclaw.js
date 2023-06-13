@@ -39,7 +39,7 @@ export default function Ravenclaw() {
         "Where those of wit and learning, Will always find their kind."
       }
       description={
-        <p className="fs-5">
+        <p className="fs-5 pt-2">
           <span className="h2">Ravenclaw</span> is one of the four Houses of
           Hogwarts School of Witchcraft and Wizardry. It was founded by Rowena
           Ravenclaw, a medieval witch, and its members are known for their wit,

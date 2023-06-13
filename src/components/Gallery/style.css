@@ -1,0 +1,14 @@
+.gallery .albumes img {
+  width: 300px;
+  height: 300px;
+  border-radius: 60px;
+}
+@media (max-width: 768px) {
+  .gallery .albumes img {
+    width: 250px;
+    height: 250px;
+  }
+  .gallery .albumes span {
+    font-size: 35px;
+  }
+}

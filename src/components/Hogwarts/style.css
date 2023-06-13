@@ -10,13 +10,32 @@
   text-align: justify;
   align-items: center;
 }
+.hogwarts .hogwarts-founders img {
+  width: 800px;
+}
+.hogwarts #death iframe {
+  border-radius: 10px;
+}
+@media (max-width: 991px) {
+  .hogwarts #death iframe {
+    width: 400px !important;
+  }
+  .hogwarts .hogwarts-founders img {
+    width: 500px;
+  }
+}
 @media (max-width: 700px) {
   #diagon .diagon-img {
     max-width: 300px;
   }
 }
-@media (max-width: 991) {
-  div .death-video {
-    width: 400px !important;
+@media (max-width: 570px) {
+  .hogwarts .hogwarts-founders img {
+    width: 350px;
+  }
+}
+@media (max-width: 420px) {
+  .hogwarts .hogwarts-founders img {
+    width: 250px;
   }
 }
