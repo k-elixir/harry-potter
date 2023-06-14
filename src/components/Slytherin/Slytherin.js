@@ -7,9 +7,15 @@ import slytherin from "./images/slytherin.jpg";
 import severus from "./images/severus.png";
 import snake from "./images/2.jpg";
 import tom from "./images/tom.jpg";
+import tom2 from "./images/e6194cc9f285bf9f51ff305d908d38ea.jpg";
 import snape from "./images/snape.jpg";
+import snape2 from "./images/snape3.jpg";
 import malfoy from "./images/malfoy.jpg";
+import malfoy2 from "./images/malfoy2.jpg";
 import bellatrix from "./images/bellatrix.jpg";
+import bellatrix2 from "./images/BellatrixLestrange.webp";
+import dolores from "./images/fdolores.jpg";
+import dolores2 from "./images/Profile_Dolores_Umbridge_Harry_Potter.webp";
 import House from "../House/House";
 
 export default function Slytherin() {
@@ -23,15 +29,20 @@ export default function Slytherin() {
       pic4={<img src={snake} class="d-block w-100" alt="Snake" />}
       pic5={<img src={severus} class="d-block w-100" alt="Severus Snape" />}
       member1={tom}
+      member1Hover={tom2}
       member1Alt={"You-Know-Who"}
       member2={snape}
+      member2Hover={snape2}
       member2Alt={"Severus Snape"}
       member3={malfoy}
+      member3Hover={malfoy2}
       member3Alt={"Malfoy Family"}
       member4={bellatrix}
+      member4Hover={bellatrix2}
       member4Alt={"Bellatrix Lestrange"}
-      member5={null}
-      member5Alt={null}
+      member5={dolores}
+      member5Hover={dolores2}
+      member5Alt={"Dolores Umbridge"}
       sortingHat={
         "You'll make your real friends, Those cunning folk use any means, To achieve their ends."
       }

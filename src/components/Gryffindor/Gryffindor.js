@@ -7,10 +7,15 @@ import ghost from "./images/2.jpg";
 import minerva from "./images/minerva.jpeg";
 import godric from "./images/godric.jpeg";
 import hermione from "./images/hermione.jpg";
+import hermione2 from "./images/hermione2.jpg";
 import sirius from "./images/sirius.jpg";
+import sirius2 from "./images/black2.jpg";
 import oliver from "./images/oliver.jpg";
+import oliver2 from "./images/oliver2.jpg";
 import weasleys from "./images/Weasleys.jpg";
+import wealeys2 from "./images/weasley2.jpg";
 import hagrid from "./images/1533f41cc061550e29dc1e4cae4c1f65.jpg";
+import hagrid2 from "./images/hagrid2.jpg";
 import House from "../House/House";
 
 export default function Gryffindor() {
@@ -26,14 +31,19 @@ export default function Gryffindor() {
         <img src={minerva} class="d-block w-100" alt="Minerva MacGonagall" />
       }
       member1={hermione}
+      member1Hover={hermione2}
       member1Alt={"Hermione Granger"}
       member2={hagrid}
+      member2Hover={hagrid2}
       member2Alt={"Rubeus Hagrid"}
       member3={oliver}
+      member3Hover={oliver2}
       member3Alt={"Oliver Wood"}
       member4={sirius}
+      member4Hover={sirius2}
       member4Alt={"Sirius Black"}
       member5={weasleys}
+      member5Hover={wealeys2}
       member5Alt={"Weasley family"}
       sortingHat={
         "Where dwell the brave at heart, their daring, nerve and chivalry set Gryffindors apart."

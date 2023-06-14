@@ -14,6 +14,19 @@ div .carousel {
 .flag img {
   width: 250px;
 }
+.img-box {
+  position: relative;
+  float: left;
+}
+.img-box .hover-img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+}
+.img-box:hover .hover-img {
+  display: block;
+}
 @media (max-width: 767px) {
   .house-slide img {
     max-width: 300px !important;

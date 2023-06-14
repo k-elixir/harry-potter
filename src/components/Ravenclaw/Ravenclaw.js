@@ -7,10 +7,15 @@ import hall2 from "./images/Ravenclaw_common_room.webp";
 import eagle from "./images/1.jpg";
 import second from "./images/2.jpg";
 import cho from "./images/cho.jpg";
+import cho2 from "./images/Cho_chang.webp";
 import luna from "./images/luna.jpg";
+import luna2 from "./images/luna2.jpg";
 import quirrell from "./images/Prof. Quirrell.jpg";
+import quirrell2 from "./images/Quirinus-Quirrel_458.webp";
 import lockhart from "./images/gildero-lockhart.jpg";
+import lockhart2 from "./images/gaccion1.jpg";
 import trelawney from "./images/Sybill-Trelawney.jpg";
+import trelawney2 from "./images/47642FA9-DDBF-4468-B363-D835D496C49F.webp";
 import House from "../House/House";
 
 export default function Ravenclaw() {
@@ -26,14 +31,19 @@ export default function Ravenclaw() {
       pic4={<img src={eagle} class="d-block w-100" alt="Eagle" />}
       pic5={<img src={second} class="d-block w-100" alt="revanclaw wall" />}
       member1={cho}
+      member1Hover={cho2}
       member1Alt={"Cho Chang"}
       member2={luna}
+      member2Hover={luna2}
       member2Alt={"Luna Lovegood"}
       member3={quirrell}
+      member3Hover={quirrell2}
       member3Alt={"Quirinus Quirrell"}
       member4={lockhart}
+      member4Hover={lockhart2}
       member4Alt={"Gilderoy Lockhart"}
       member5={trelawney}
+      member5Hover={trelawney2}
       member5Alt={"Sybill Trelawney"}
       sortingHat={
         "Where those of wit and learning, Will always find their kind."
@@ -93,31 +103,30 @@ export default function Ravenclaw() {
       cup={
         <ul className="fs-5">
           <li>
-            Hufflepuff came fourth for the first house cup with 62,596,368 house
+            Ravenclaw came third for the first house cup with 71,815,917 house
             points.
           </li>
           <li>
-            Hufflepuff came third for the second house cup with 48,438,276
+            Ravenclaw came fourth for the second house cup with 24,567,337
             points.
           </li>
           <li>
-            Hufflepuff came fourth for the third house cup with 26,715,401
-            points.
-          </li>
-          <li>Hufflepuff won the fourth house cup with 24,915,860.</li>
-          <li>
-            Hufflepuff came third for the fifth house cup with 27,350,412
+            Ravenclaw came second for the third house cup with 26,916,194
             points.
           </li>
           <li>
-            Hufflepuff came third for the sixth house cup with 32,259,036
+            Ravenclaw came fourth for the fourth house cup with 24,567,337.
+          </li>
+          <li>Ravenclaw won the fifth house cup with 28,048,578 points.</li>
+          <li>Ravenclaw won the sixth house cup with 32,377,299 points.</li>
+          <li>
+            Ravenclaw came third for the seventh house cup with 49,775,819
             points.
           </li>
           <li>
-            Hufflepuff came second for the seventh house cup with 50,109,456
+            Ravenclaw came third for the eighth house cup with 23,712,525
             points.
           </li>
-          <li>Hufflepuff won the eighth house cup with 26,796,774 points.</li>
         </ul>
       }
       fact={null}

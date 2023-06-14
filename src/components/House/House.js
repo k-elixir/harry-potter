@@ -68,61 +68,121 @@ export default function House(props) {
             <h3 className="h1 mt-5">
               <span>S</span>ome members of {props.houseName}.
             </h3>
-            <div className="row text-center member p-5 mb-5">
+            <div className="row member p-5 mb-5">
               <div className="col">
-                <img
-                  src={props.member1}
-                  alt={props.member1Alt}
-                  height={330}
-                  width={200}
-                />
-                <p>
-                  <span>{props.member1Alt}</span>
-                </p>
+                <div className="img-box">
+                  <div className="img">
+                    <img
+                      src={props.member1}
+                      alt={props.member1Alt}
+                      height={330}
+                      width={200}
+                    />
+                  </div>
+                  <div className="hover-img">
+                    <img
+                      src={props.member1Hover}
+                      alt={props.member1Alt}
+                      height={330}
+                      width={200}
+                    />
+                  </div>
+                  <p>
+                    <span>{props.member1Alt}</span>
+                  </p>
+                </div>
               </div>
               <div className="col">
-                <img
-                  src={props.member2}
-                  alt={props.member2Alt}
-                  height={330}
-                  width={200}
-                />
-                <p>
-                  <span>{props.member2Alt}</span>
-                </p>
+                <div className="img-box">
+                  <div className="img">
+                    <img
+                      src={props.member2}
+                      alt={props.member2Alt}
+                      height={330}
+                      width={200}
+                    />
+                  </div>
+                  <div className="hover-img">
+                    <img
+                      src={props.member2Hover}
+                      alt={props.member2Alt}
+                      height={330}
+                      width={200}
+                    />
+                  </div>
+                  <p>
+                    <span>{props.member2Alt}</span>
+                  </p>
+                </div>
               </div>
               <div className="col">
-                <img
-                  src={props.member3}
-                  alt={props.member3Alt}
-                  height={330}
-                  width={200}
-                />
-                <p>
-                  <span>{props.member3Alt}</span>
-                </p>
+                <div className="img-box">
+                  <div className="img">
+                    <img
+                      src={props.member3}
+                      alt={props.member3Alt}
+                      height={330}
+                      width={200}
+                    />
+                  </div>
+                  <div className="hover-img">
+                    <img
+                      src={props.member3Hover}
+                      alt={props.member3Alt}
+                      height={330}
+                      width={200}
+                    />
+                  </div>
+                  <p>
+                    <span>{props.member3Alt}</span>
+                  </p>
+                </div>
               </div>
               <div className="col">
-                <img
-                  src={props.member4}
-                  alt={props.member4Alt}
-                  height={330}
-                  width={200}
-                />
-                <p>
-                  <span>{props.member4Alt}</span>
-                </p>
+                <div className="img-box">
+                  <div className="img">
+                    <img
+                      src={props.member4}
+                      alt={props.member4Alt}
+                      height={330}
+                      width={200}
+                    />
+                  </div>
+                  <div className="hover-img">
+                    <img
+                      src={props.member4Hover}
+                      alt={props.member4Alt}
+                      height={330}
+                      width={200}
+                    />
+                  </div>
+                  <p>
+                    <span>{props.member4Alt}</span>
+                  </p>
+                </div>
               </div>
               <div className="col">
-                <img
-                  src={props.member5}
-                  alt={props.member5Alt}
-                  height={330}
-                  width={200}
-                />
-                <p>
-                  <span>{props.member5Alt}</span>
-                </p>
+                <div className="img-box">
+                  <div className="img">
+                    <img
+                      src={props.member5}
+                      alt={props.member5Alt}
+                      height={330}
+                      width={200}
+                    />
+                  </div>
+                  <div className="hover-img">
+                    <img
+                      src={props.member5Hover}
+                      alt={props.member5Alt}
+                      height={330}
+                      width={200}
+                    />
+                  </div>
+                  <p>
+                    <span>{props.member5Alt}</span>
+                  </p>
+                </div>
               </div>
             </div>
           </div>

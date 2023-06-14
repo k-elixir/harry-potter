@@ -9,6 +9,7 @@ import Gryffindor from "./components/Gryffindor/Gryffindor";
 import Ravenclaw from "./components/Ravenclaw/Ravenclaw";
 import Hufflepuff from "./components/Hufflepuff/Hufflepuff";
 import Slytherin from "./components/Slytherin/Slytherin";
+import Pictures from "./components/Gallery/Pictures";
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
           <Route path="/About" element={<About />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Gallery" element={<Gallery />} />
+          <Route path="/Gallery/Pictures" element={<Pictures />} />
           <Route path="/Hogwarts" element={<Hogwarts />} />
           <Route path="/Gryffindor" element={<Gryffindor />} />
           <Route path="/Ravenclaw" element={<Ravenclaw />} />

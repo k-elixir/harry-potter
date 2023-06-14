@@ -3,6 +3,13 @@
   height: 300px;
   border-radius: 60px;
 }
+.gallery .albumes button {
+  background-color: transparent;
+  border: 0px;
+}
+div .albums-img img {
+  width: 200px;
+}
 @media (max-width: 768px) {
   .gallery .albumes img {
     width: 250px;

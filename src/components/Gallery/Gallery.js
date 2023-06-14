@@ -8,8 +8,14 @@ import three from "./images/3.jpg";
 import four from "./images/4.jpg";
 import five from "./images/5.jpg";
 import six from "./images/6.jpg";
+import Pictures from "./Pictures";
+import { HashLink } from "react-router-hash-link";
 
 export default function Gallery() {
+  function handleClick() {
+    <Pictures value={"news"} />;
+  }
+
   return (
     <div className="gallery" id="up">
       <NavBar />
@@ -19,39 +25,41 @@ export default function Gallery() {
         </h2>
         <div className="row text-center mt-5 mb-5">
           <div className="col-lg-4 col-sm-6 pb-5 pt-5">
-            <img src={one} alt="News" />
-            <div>
-              <span>News</span>
+            <HashLink to="/Gallery/Pictures" onClick={handleClick}>
+              <img src={one} alt="News" />
+            </HashLink>
+            <div className="mt-3">
+              <span className="fs-1">News</span>
             </div>
           </div>
-          <div className="col-lg-4 col-sm-6  pb-5 pt-5">
+          <div className="col-lg-4 col-sm-6 pb-5 pt-5">
             <img src={two} alt="Info" />
-            <div>
-              <span>Info</span>
+            <div className="mt-1">
+              <span className="fs-1">Info</span>
             </div>
           </div>
           <div className="col-lg-4 col-sm-6  pb-5 pt-5">
             <img src={three} alt="Creativity" />
-            <div>
-              <span>Creativity</span>
+            <div className="mt-1">
+              <span className="fs-1">Creativity</span>
             </div>
           </div>
           <div className="col-lg-4 col-sm-6  pb-5 pt-5">
             <img src={four} alt="Meme" />
-            <div>
-              <span>Meme</span>
+            <div className="mt-1">
+              <span className="fs-1">Meme</span>
             </div>
           </div>
           <div className="col-lg-4 col-sm-6  pb-5 pt-5">
             <img src={five} alt="Enjoy" />
-            <div>
-              <span>Print and Enjoy</span>
+            <div className="mt-1">
+              <span className="fs-1">Print and Enjoy</span>
             </div>
           </div>
           <div className="col-lg-4 col-sm-6  pb-5 pt-5">
             <img src={six} alt="Wallpaper" />
-            <div>
-              <span>Wallpaper</span>
+            <div className="mt-1">
+              <span className="fs-1">Wallpaper</span>
             </div>
           </div>
         </div>

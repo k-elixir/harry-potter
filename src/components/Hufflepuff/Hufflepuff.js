@@ -7,10 +7,16 @@ import helga from "./images/helga.jpeg";
 import banner from "./images/banner.jpg";
 import badger from "./images/hufflepuff.jpg";
 import cedric from "./images/cedric2.jpg";
+import cedric2 from "./images/Cedric.jpg";
+import hanna from "./images/hanna.jpg";
+import hanna2 from "./images/996b4a5c68f6968a6a056b562d85e6e4.jpg";
 import newt from "./images/newt-scamander.jpg";
+import newt2 from "./images/newt-scamander-portrait.jpg";
 import tonks from "./images/nymphadora-tonks.jpg";
+import tonks2 from "./images/f3f0dc01112aba3e44147266ed2bb14c.jpg";
+import pomona from "./images/Pomona-Sprout.jpg";
+import pomona2 from "./images/pomona2.jpg";
 import House from "../House/House";
-
 export default function Hufflepuff() {
   return (
     <House
@@ -22,15 +28,20 @@ export default function Hufflepuff() {
       pic4={<img src={badger} class="d-block w-100" alt="Badger" />}
       pic5={<img src={banner} class="d-block w-100" alt="Hufflepuff's color" />}
       member1={cedric}
+      member1Hover={cedric2}
       member1Alt={"Cedric Diggory"}
       member2={newt}
+      member2Hover={newt2}
       member2Alt={"Newt Scamander"}
       member3={tonks}
+      member3Hover={tonks2}
       member3Alt={"Nymphadora Tonks"}
-      member4={null}
-      member4Alt={null}
-      member5={null}
-      member5Alt={null}
+      member4={hanna}
+      member4Hover={hanna2}
+      member4Alt={"Hannah Abbott"}
+      member5={pomona}
+      member5Hover={pomona2}
+      member5Alt={"Pomona Sprout"}
       sortingHat={
         "Where they are just and loyal, Those patient Hufflepuffs aretrue, And unafraid of toil."
       }
