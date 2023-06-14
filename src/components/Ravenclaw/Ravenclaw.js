@@ -4,8 +4,8 @@ import flag from "./images/ravenclaw_banner.png";
 import rowena from "./images/Rowena-Ravenclaw.jpeg";
 import hall1 from "./images/hall.jpg";
 import hall2 from "./images/Ravenclaw_common_room.webp";
-import eagle from "./images/1.jpg";
-import second from "./images/2.jpg";
+import ghost from "./images/ghost.jpg";
+import prof from "./images/fili.jpg";
 import cho from "./images/cho.jpg";
 import cho2 from "./images/Cho_chang.webp";
 import luna from "./images/luna.jpg";
@@ -24,12 +24,12 @@ export default function Ravenclaw() {
       houseName={"Ravenclaw"}
       flag={<img src={flag} alt="Ravenclaw's flag" />}
       pic1={<img src={rowena} class="d-block w-100" alt="Rowena Ravenclaw" />}
-      pic2={<img src={hall1} class="d-block w-100" alt="Ravenclaw's hall" />}
-      pic3={
+      pic2={<img src={ghost} class="d-block w-100" alt="Ravenclaw's ghost" />}
+      pic3={<img src={hall1} class="d-block w-100" alt="Ravenclaw's hall" />}
+      pic4={
         <img src={hall2} class="d-block w-100" alt="Ravenclaw's common room" />
       }
-      pic4={<img src={eagle} class="d-block w-100" alt="Eagle" />}
-      pic5={<img src={second} class="d-block w-100" alt="revanclaw wall" />}
+      pic5={<img src={prof} class="d-block w-100" alt="Ravenclaw's leader" />}
       member1={cho}
       member1Hover={cho2}
       member1Alt={"Cho Chang"}

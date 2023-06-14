@@ -13,9 +13,6 @@
 img {
   border-radius: 10px;
 }
-div {
-  cursor: url("./components/images/output-onlinegiftools.gif"), auto;
-}
 span {
   color: silver;
   font-size: 50px;
@@ -31,7 +28,80 @@ footer img {
 }
 .title {
   font-size: 55px;
+  animation-name: fade;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
 }
+@-webkit-keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+p {
+  animation-name: slide;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+@-webkit-keyframes slide {
+  0% {
+    transform: translate(0px, 100px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+@-moz-keyframes slide {
+  0% {
+    transform: translate(0px, 100px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+@-o-keyframes slide {
+  0% {
+    transform: translate(0px, 100px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+@keyframes slide {
+  0% {
+    transform: translate(0px, 100px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
 @media (min-width: 1200px) {
   .title {
     font-size: 105.3px;

@@ -3,9 +3,9 @@ import "./style.css";
 import flag from "./images/banner.png";
 import hall1 from "./images/hall.jpg";
 import salazar from "./images/salazar.webp";
-import slytherin from "./images/slytherin.jpg";
-import severus from "./images/severus.png";
-import snake from "./images/2.jpg";
+import ghost from "./images/ghost.jpg";
+import severus from "./images/severus.jpg";
+import hall2 from "./images/hall2.jpg";
 import tom from "./images/tom.jpg";
 import tom2 from "./images/e6194cc9f285bf9f51ff305d908d38ea.jpg";
 import snape from "./images/snape.jpg";
@@ -24,9 +24,9 @@ export default function Slytherin() {
       houseName={"Slytherin"}
       flag={<img src={flag} alt="Slytherin's flag" />}
       pic1={<img src={salazar} class="d-block w-100" alt="Salazar Slytherin" />}
-      pic2={<img src={hall1} class="d-block w-100" alt="Slytherin's hall" />}
-      pic3={<img src={slytherin} class="d-block w-100" alt="Slytherins" />}
-      pic4={<img src={snake} class="d-block w-100" alt="Snake" />}
+      pic2={<img src={ghost} class="d-block w-100" alt="Slytherin's ghost" />}
+      pic3={<img src={hall1} class="d-block w-100" alt="Slytherin's hall" />}
+      pic4={<img src={hall2} class="d-block w-100" alt="Slytherin's hall" />}
       pic5={<img src={severus} class="d-block w-100" alt="Severus Snape" />}
       member1={tom}
       member1Hover={tom2}

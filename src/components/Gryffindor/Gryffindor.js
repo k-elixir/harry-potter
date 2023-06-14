@@ -24,9 +24,9 @@ export default function Gryffindor() {
       houseName={"Gryffindor"}
       flag={<img src={flag} alt="Gryffindor's flag" />}
       pic1={<img src={godric} class="d-block w-100" alt="Godric Gryffindor" />}
-      pic2={<img src={hall1} class="d-block w-100" alt="Gryffindor's hall" />}
+      pic2={<img src={ghost} class="d-block w-100" alt="Sir Nicholas" />}
       pic3={<img src={hall2} class="d-block w-100" alt="Gryffindor's hall" />}
-      pic4={<img src={ghost} class="d-block w-100" alt="Sir Nicholas" />}
+      pic4={<img src={hall1} class="d-block w-100" alt="Gryffindor's hall" />}
       pic5={
         <img src={minerva} class="d-block w-100" alt="Minerva MacGonagall" />
       }

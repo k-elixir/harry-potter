@@ -29,7 +29,7 @@ export default function Pictures(props) {
           );
         })}
       </div>
-      <Footer />/
+      <Footer />
     </div>
   );
 }
