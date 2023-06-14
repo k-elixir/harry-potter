@@ -29,7 +29,7 @@ footer img {
 .title {
   font-size: 55px;
   animation-name: fade;
-  animation-duration: 4s;
+  animation-duration: 2s;
   animation-fill-mode: forwards;
 }
 @-webkit-keyframes fade {
@@ -66,7 +66,7 @@ footer img {
 }
 p {
   animation-name: slide;
-  animation-duration: 3s;
+  animation-duration: 0.7s;
   animation-fill-mode: forwards;
 }
 @-webkit-keyframes slide {
