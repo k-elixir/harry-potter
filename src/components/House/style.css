@@ -16,7 +16,7 @@ div .carousel {
 }
 .img-box {
   position: relative;
-  float: left;
+  float: none;
 }
 .img-box .hover-img {
   position: absolute;

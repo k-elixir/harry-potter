@@ -68,7 +68,7 @@ export default function House(props) {
             <h3 className="h1 mt-5">
               <span>S</span>ome members of {props.houseName}.
             </h3>
-            <div className="row member p-5 mb-5">
+            <div className="row justify-content-between align-items-center member p-5 mb-5">
               <div className="col">
                 <div className="img-box">
                   <div className="img">

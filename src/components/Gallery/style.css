@@ -2,13 +2,18 @@
   width: 300px;
   height: 300px;
   border-radius: 60px;
+  cursor: pointer;
 }
-.gallery .albumes button {
+div .album button {
   background-color: transparent;
   border: 0px;
 }
 div .albums-img img {
   width: 200px;
+  transition: transform 0.2s;
+}
+div .albums-img img:hover {
+  transform: scale(1.5);
 }
 @media (max-width: 768px) {
   .gallery .albumes img {
