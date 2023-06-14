@@ -246,17 +246,17 @@ const wall = [
 ];
 
 const print = [
-  <img src={print1} alt="Picture for print and use" />,
-  <img src={print2} alt="Picture for print and use" />,
-  <img src={print3} alt="Picture for print and use" />,
-  <img src={print4} alt="Picture for print and use" />,
-  <img src={print5} alt="Picture for print and use" />,
-  <img src={print6} alt="Picture for print and use" />,
-  <img src={print7} alt="Picture for print and use" />,
-  <img src={print8} alt="Picture for print and use" />,
-  <img src={print9} alt="Picture for print and use" />,
-  <img src={print10} alt="Picture for print and use" />,
-  <img src={print11} alt="Picture for print and use" />,
+  <img src={print1} alt="For print and use" />,
+  <img src={print2} alt="For print and use" />,
+  <img src={print3} alt="For print and use" />,
+  <img src={print4} alt="For print and use" />,
+  <img src={print5} alt="For print and use" />,
+  <img src={print6} alt="For print and use" />,
+  <img src={print7} alt="For print and use" />,
+  <img src={print8} alt="For print and use" />,
+  <img src={print9} alt="For print and use" />,
+  <img src={print10} alt="For print and use" />,
+  <img src={print11} alt="For print and use" />,
 ];
 
 const info = [
